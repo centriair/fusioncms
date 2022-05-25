@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c05b97a2921648feb08452f44919529d",
+    "content-hash": "a68f63a7225e2b472715a5b835859c10",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1036,16 +1036,16 @@
         },
         {
             "name": "fusioncms/cms",
-            "version": "dev-nightly",
+            "version": "dev-nightly-antweb",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fusioncms/cms.git",
-                "reference": "b6639a9511b6f953ad642c27eb1548adebc2d24d"
+                "url": "https://github.com/antwebstudio/fusion-cms.git",
+                "reference": "c8a525042c64a942b6075c10170445b1f8a1c4ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fusioncms/cms/zipball/b6639a9511b6f953ad642c27eb1548adebc2d24d",
-                "reference": "b6639a9511b6f953ad642c27eb1548adebc2d24d",
+                "url": "https://api.github.com/repos/antwebstudio/fusion-cms/zipball/c8a525042c64a942b6075c10170445b1f8a1c4ef",
+                "reference": "c8a525042c64a942b6075c10170445b1f8a1c4ef",
                 "shasum": ""
             },
             "require": {
@@ -1053,7 +1053,7 @@
                 "doctrine/dbal": "^2.9",
                 "illuminate/support": "^8.20",
                 "laravel/sanctum": "^2.3",
-                "laravel/scout": "^8.0",
+                "laravel/scout": "^8.0|^9.0",
                 "laravel/ui": "^3.0",
                 "league/glide": "^1.5",
                 "league/glide-laravel": "^1.0",
@@ -1074,7 +1074,6 @@
                 "symfony/css-selector": "^4.3",
                 "symfony/dom-crawler": "^4.3"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1115,7 +1114,15 @@
                     "helpers/users.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "classmap": [
+                    "tests/stubs/laravel/themes"
+                ],
+                "psr-4": {
+                    "Fusion\\Tests\\": "tests/src/",
+                    "App\\": "tests/stubs/laravel/app/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -1127,9 +1134,9 @@
             ],
             "description": "Core of FusionCMS",
             "support": {
-                "source": "https://github.com/fusioncms/cms/tree/nightly"
+                "source": "https://github.com/antwebstudio/fusion-cms/tree/nightly-antweb"
             },
-            "time": "2021-06-11T20:32:49+00:00"
+            "time": "2022-05-18T14:07:03+00:00"
         },
         {
             "name": "google/apiclient",
@@ -9863,5 +9870,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }

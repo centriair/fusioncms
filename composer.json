@@ -48,7 +48,7 @@
         "php": "^7.3|^8.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
-        "fusioncms/cms": "dev-nightly",
+        "fusioncms/cms": "dev-nightly-antweb",
         "guzzlehttp/guzzle": "^7.0.1",
         "guzzlehttp/oauth-subscriber": "^0.5",
         "laravel/framework": "^8.20",
@@ -64,6 +64,12 @@
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/antwebstudio/fusion-cms"
+        }
+    ],
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
