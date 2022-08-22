@@ -67,6 +67,7 @@ return [
 
     'links' => [
         public_path('storage') => storage_path('app/public'),
+        theme_path() => dirname(theme_path()).'/themes-repo',
     ],
 
 ];
