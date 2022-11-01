@@ -40,4 +40,8 @@ class User extends \Fusion\Models\User
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function morphTypeName() {
+        return \Fusion\Models\User::class;
+    }
 }
