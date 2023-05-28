@@ -368,26 +368,7 @@
         </div>
         <div class="fade-in-element down right-container md:w-7/12">
           <div class="contact-us-form">
-            <form class="flex flex-col gap-y-8">
-              <input type="text"
-                class="w-full shadow-custom p-4 placeholder:text-medium-grey placeholder:font-light placeholder:text-lg"
-                placeholder="Name">
-              <input type="text"
-                class="w-full shadow-custom p-4 placeholder:text-medium-grey placeholder:font-light placeholder:text-lg"
-                placeholder="Phone">
-              <input type="email"
-                class="w-full shadow-custom p-4 placeholder:text-medium-grey placeholder:font-light placeholder:text-lg"
-                placeholder="Email">
-              <textarea type="text" rows="5"
-                class="w-full shadow-custom p-4 placeholder:text-medium-grey placeholder:font-light placeholder:text-lg"
-                placeholder="Messages"></textarea>
-              <div class="steps-button-container flex justify-end">
-                <button
-                  class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
-                  <p>Send Message</p>
-                </button>
-              </div>
-            </form>
+            {{ render_form($formName ?? 'contact_us') }}
           </div>
         </div>
       </div>

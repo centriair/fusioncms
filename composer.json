@@ -53,6 +53,7 @@
         "fusioncms/cms": "dev-nightly-antweb",
         "guzzlehttp/guzzle": "^7.0.1",
         "guzzlehttp/oauth-subscriber": "^0.5",
+        "laracasts/flash": "^3.2",
         "laravel/framework": "^8.20",
         "laravel/tinker": "^2.5",
         "league/glide": "dev-cache-path as 1.7.0",
