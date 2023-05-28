@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f7d41731aaa4804201747dea4a7abf8",
+    "content-hash": "c623cf205cf0019fa5b8871004c4b9f5",
     "packages": [
         {
             "name": "antweb/deployer-recipe",
@@ -41,6 +41,56 @@
                 "source": "https://github.com/antwebstudio/deployer-recipe/tree/2.0.0"
             },
             "time": "2022-05-19T11:15:17+00:00"
+        },
+        {
+            "name": "antweb/fusioncms-contact-form",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antwebstudio/fusioncms-contact-form.git",
+                "reference": "d997b9fe53f24c47eafd64bd17aa792cf865ba70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antwebstudio/fusioncms-contact-form/zipball/d997b9fe53f24c47eafd64bd17aa792cf865ba70",
+                "reference": "d997b9fe53f24c47eafd64bd17aa792cf865ba70",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "fusioncms": {
+                    "name": "ContactForm"
+                },
+                "laravel": {
+                    "providers": [
+                        "Addons\\ContactForm\\Providers\\AddonServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ContactForm\\": "src/",
+                    "Addons\\ContactForm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A FusionCMS addon.",
+            "keywords": [
+                "fusioncms",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/antwebstudio/fusioncms-contact-form/issues",
+                "source": "https://github.com/antwebstudio/fusioncms-contact-form/tree/main"
+            },
+            "time": "2023-05-28T10:53:35+00:00"
         },
         {
             "name": "antweb/fusioncms-tinymce",
