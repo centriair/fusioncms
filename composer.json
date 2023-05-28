@@ -47,6 +47,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "antweb/deployer-recipe": "^2.0",
+        "antweb/fusioncms-tinymce": "dev-master",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "fusioncms/cms": "dev-nightly-antweb",
@@ -54,8 +55,8 @@
         "guzzlehttp/oauth-subscriber": "^0.5",
         "laravel/framework": "^8.20",
         "laravel/tinker": "^2.5",
+        "league/glide": "dev-cache-path as 1.7.0",
         "predis/predis": "^1.1",
-        "league/glide":"dev-cache-path as 1.7.0",
         "vemcogroup/laravel-sparkpost-driver": "^4.0"
     },
     "require-dev": {
