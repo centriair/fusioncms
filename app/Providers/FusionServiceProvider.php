@@ -9,6 +9,7 @@ class FusionServiceProvider extends ServiceProvider
 {
     protected $models = [
         \Fusion\Models\User::class => \App\Models\User::class,
+        \Fusion\Models\Taxonomies\Brand::class => \App\Models\Brand::class,
     ];
 
     /**

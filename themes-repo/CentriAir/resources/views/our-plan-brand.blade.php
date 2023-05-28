@@ -1,5 +1,5 @@
 @php
-  $brands = App\Models\Brand::limit(6)->get();
+    $brand = $page;
 @endphp
 <!DOCTYPE html>
 <html lang="en">
@@ -174,8 +174,12 @@
         <p><a href="{{ url('/') }}">Home</a></p>
       </div>
       <div class="bread-crumb-separator">></div>
+      <div class="bread-crumb-current ">
+        <p><a href="{{ url('our-plans') }}">Our Plans</a></p>
+      </div>
+      <div class="bread-crumb-separator">></div>
       <div class="bread-crumb-current text-blue-primary font-bold">
-        <p>Our Plans</p>
+        <p>{{ $brand->name }}</p>
       </div>
     </div>
   </section>
@@ -190,17 +194,25 @@
         </div>
       </div>
       <div class="divider h-0.5 bg-medium-grey w-2/3 max-w-screen-xs md:max-w-screen-md mx-auto my-12"></div>
-      <div class="fade-in-element up flex flex-wrap pb-4 md:pb-8">
-        @foreach($brands->chunk(3) as $brands)
-          @if($brands[0])
-            @include('partials.our-plan-brand', ['brand' => $brands[0], 'container' => 'md:pr-4 sm:pr-4'])
-          @endif
-          @if($brands[1])
-            @include('partials.our-plan-brand', ['brand' => $brands[1], 'container' => 'md:px-4 sm:px-4'])
-          @endif
-          @if($brands[2])
-            @include('partials.our-plan-brand', ['brand' => $brands[2], 'container' => 'md:pl-4 sm:pl-4'])
-          @endif
+      <div class="fade-in-element up flex flex-wrap pb-4 md:pb-8 justify-center">
+      
+        <div class="justify-center w-full flex">
+            <div class="logo flex flex-wrap justify-center mb-8 md:w-1/3 sm:w-1/2">
+                <img class="object-contain w-10/12 mb-5" src="{{ $brand->imageUrl }}">
+                <img class="h-10 object-contain" src="{{ $brand->logoUrl }}">
+            </div>
+        </div>
+
+        @foreach($brand->productModels->chunk(3) as $productModels)
+            @if(isset($productModels[0]))
+                @include('partials.our-plan-brand', ['brand' => $brand, 'productModel' => $productModels[0], 'container' => 'md:pr-4 sm:pr-4'])
+            @endif
+            @if(isset($productModels[1]))
+                @include('partials.our-plan-brand', ['brand' => $brand, 'productModel' => $productModels[1], 'container' => 'md:px-4 sm:px-4'])
+            @endif
+            @if(isset($productModels[2]))
+                @include('partials.our-plan-brand', ['brand' => $brand, 'productModel' => $productModels[2], 'container' => 'md:pl-4 sm:pl-4'])
+            @endif
         @endforeach
       </div>
     </div>
@@ -284,8 +296,6 @@
             <div class="brochure-card-divider bg-transparent h-0.5 w-20 mx-auto sm:mx-0 mt-2"></div>
           </div>
         </div>
-        
-        
         <!-- Midea -->
         <div class="fade-in-element up z-50 brochure-current-item-content w-full bg-white-grey flex flex-col p-8 gap-x-8">
           <div class="brochure-item-row w-full group">
@@ -480,7 +490,6 @@
           </div>
         </div>
         <!-- End Download -->
-
       </div>
     </div>
   </section>

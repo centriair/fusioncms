@@ -8,6 +8,9 @@ with: src="{{ url('theme/$1.$2') }}"
 replace: href="{{ url('theme/assets/css/style.css') }}"
 with: href="{{ url('theme/assets/css/style.css') }}"
 --}}
+@php
+  $brands = App\Models\Brand::limit(6)->get();
+@endphp
 <!DOCTYPE html>
 <html lang="en">
 
@@ -668,377 +671,21 @@ with: href="{{ url('theme/assets/css/style.css') }}"
           </div>
         </div>
       </div>
-      <div class="fade-in-element up grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 pb-4 md:pb-8">
-        <div class="flex flex-col">
-          <div class="logo h-10 flex justify-center mb-8">
-            <img class="object-contain" src="{{ url('theme/assets/brands/logo-midea.png') }}">
-          </div>
-          <div class="grid-item h-full border-card-outline-grey border-2 rounded-xl">
-            <div class="card flex flex-col">
-              <div class="top-card rounded-t-xl bg-gradient-to-b from-medium-grey to-white-grey py-8">
-                <div class="top-card-item text-center">
-                  <div class="text-xl font-light">
-                    <p>1.0HP</p>
-                  </div>
-                  <div class="text-blue-primary font-bold flex justify-center items-baseline">
-                    <div class="text-3xl">
-                      <p>RM78/</p>
-                    </div>
-                    <div class="text-lg">
-                      <p>mth</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="h-0.5 bg-divider-grey w-20 my-4 md:my-8 mx-auto"></div>
-                <div class="top-card-item text-center">
-                  <div class="text-xl font-light">
-                    <p>1.5HP</p>
-                  </div>
-                  <div class="text-blue-primary font-bold flex justify-center items-baseline">
-                    <div class="text-3xl">
-                      <p>RM93/</p>
-                    </div>
-                    <div class="text-lg">
-                      <p>mth</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="h-0.5 bg-divider-grey w-20 my-4 md:my-8 mx-auto"></div>
-                <div class="top-card-item text-center">
-                  <div class="text-xl font-light">
-                    <p>2.0HP</p>
-                  </div>
-                  <div class="text-blue-primary font-bold flex justify-center items-baseline">
-                    <div class="text-3xl">
-                      <p>RM135/</p>
-                    </div>
-                    <div class="text-lg">
-                      <p>mth</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="bottom-card p-8">
-                <div class="bottom-card-container">
-                  <div class="brand-name text-center font-bold">
-                    <p>Midea Inverter</p>
-                  </div>
-                  <div class="h-0.5 bg-blue-primary w-20 my-4 mx-auto"></div>
-                  <ul class="brand-points">
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>iECO Mode</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Golden fin</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>WIFI Control (optional)</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>3D Airflow</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Self-cleaning</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>     
-        <div class="flex flex-col">
-          <div class="logo h-10 flex justify-center mb-8">
-            <img class="object-contain" src="{{ url('theme/assets/brands/logo-panasonic.png') }}">
-          </div>  
-          <div class="grid-item h-full border-card-outline-grey border-2 rounded-xl">
-            <div class="card flex flex-col">
-              <div class="top-card rounded-t-xl bg-gradient-to-b from-medium-grey to-white-grey py-8">
-                <div class="top-card-item text-center">
-                  <div class="text-xl font-light">
-                    <p>1.0HP</p>
-                  </div>
-                  <div class="text-blue-primary font-bold flex justify-center items-baseline">
-                    <div class="text-3xl">
-                      <p>RM85/</p>
-                    </div>
-                    <div class="text-lg">
-                      <p>mth</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="h-0.5 bg-divider-grey w-20 my-4 md:my-8 mx-auto"></div>
-                <div class="top-card-item text-center">
-                  <div class="text-xl font-light">
-                    <p>1.5HP</p>
-                  </div>
-                  <div class="text-blue-primary font-bold flex justify-center items-baseline">
-                    <div class="text-3xl">
-                      <p>RM99/</p>
-                    </div>
-                    <div class="text-lg">
-                      <p>mth</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="h-0.5 bg-divider-grey w-20 my-4 md:my-8 mx-auto"></div>
-                <div class="top-card-item text-center">
-                  <div class="text-xl font-light">
-                    <p>2.0HP</p>
-                  </div>
-                  <div class="text-blue-primary font-bold flex justify-center items-baseline">
-                    <div class="text-3xl">
-                      <p>RM155/</p>
-                    </div>
-                    <div class="text-lg">
-                      <p>mth</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="bottom-card p-8">
-                <div class="bottom-card-container">
-                  <div class="brand-name text-center font-bold">
-                    <p>Panasonic Inverter</p>
-                  </div>
-                  <div class="h-0.5 bg-blue-primary w-20 my-4 mx-auto"></div>
-                  <ul class="brand-points">
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>18% Faster Cooling</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>20% Energy Saving</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Long Airflow</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Nanoe-G (dust removal)</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Nanoe-X (radhered novel coronavirus)</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col">
-          <div class="logo h-10 flex justify-center mb-8">
-            <img class="object-contain" src="{{ url('theme/assets/brands/logo-daikin.png') }}">
-          </div>  
-          <div class="grid-item h-full border-card-outline-grey border-2 rounded-xl">
-            <div class="card flex flex-col">
-              <div class="top-card rounded-t-xl bg-gradient-to-b from-medium-grey to-white-grey py-8">
-                <div class="top-card-item text-center">
-                  <div class="text-xl font-light">
-                    <p>1.0HP</p>
-                  </div>
-                  <div class="text-blue-primary font-bold flex justify-center items-baseline">
-                    <div class="text-3xl">
-                      <p>RM85/</p>
-                    </div>
-                    <div class="text-lg">
-                      <p>mth</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="h-0.5 bg-divider-grey w-20 my-4 md:my-8 mx-auto"></div>
-                <div class="top-card-item text-center">
-                  <div class="text-xl font-light">
-                    <p>1.5HP</p>
-                  </div>
-                  <div class="text-blue-primary font-bold flex justify-center items-baseline">
-                    <div class="text-3xl">
-                      <p>RM99/</p>
-                    </div>
-                    <div class="text-lg">
-                      <p>mth</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="h-0.5 bg-divider-grey w-20 my-4 md:my-8 mx-auto"></div>
-                <div class="top-card-item text-center">
-                  <div class="text-xl font-light">
-                    <p>2.0HP</p>
-                  </div>
-                  <div class="text-blue-primary font-bold flex justify-center items-baseline">
-                    <div class="text-3xl">
-                      <p>RM155/</p>
-                    </div>
-                    <div class="text-lg">
-                      <p>mth</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="bottom-card p-8">
-                <div class="bottom-card-container">
-                  <div class="brand-name text-center font-bold">
-                    <p>Daikin Inverter</p>
-                  </div>
-                  <div class="h-0.5 bg-blue-primary w-20 my-4 mx-auto"></div>
-                  <ul class="brand-points">
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Econo Mode</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Gin-Ion (Blue Filter)</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Build in WiFi</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Smart Clean</p>
-                      </div>
-                    </li>
-                    <li class="point-items flex gap-x-4 items-start">
-                      <div class="w-1/12">
-                        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
-                          stroke-linejoin="round">
-                          <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
-                      </div>
-                      <div class="w-11/12">
-                        <p>Smart Sense</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-       
+      <div class="fade-in-element up flex flex-wrap pb-4 md:pb-8">
+        @foreach($brands->chunk(3) as $brands)
+          @if($brands[0])
+            @include('partials.our-plan-brand', ['homepage' => true, 'brand' => $brands[0], 'container' => 'md:pr-4 sm:pr-4'])
+          @endif
+          @if($brands[1])
+            @include('partials.our-plan-brand', ['homepage' => true, 'brand' => $brands[1], 'container' => 'md:px-4 sm:px-4'])
+          @endif
+          @if($brands[2])
+            @include('partials.our-plan-brand', ['homepage' => true, 'brand' => $brands[2], 'container' => 'md:pl-4 sm:pl-4'])
+          @endif
+        @endforeach
       </div>
       <div class="button-container flex justify-center">
-        <a href="#"
+        <a href="{{ url('our-plans') }}"
           class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
           <p>Book Now!</p>
         </a>
@@ -1153,15 +800,11 @@ with: href="{{ url('theme/assets/css/style.css') }}"
   <section class="brands">
     <div class="w-full max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex flex-col max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex flex-col py-8 md:py-32">
       <div class="flex md:flex-row gap-y-8 justify-center gap-x-12 lg:justify-between">
+        @foreach($brands as $brand)
         <div class="fade-in-element right md:up image-container h-10 flex">
-          <img class="object-contain" src="{{ url('theme/assets/brands/logo-midea.png') }}">
+          <img class="object-contain" alt="{{ $brand->logoUrl }}" src="{{ $brand->logoUrl }}">
         </div>
-        <div class="fade-in-element right md:up image-container h-10 flex">
-          <img class="object-contain" src="{{ url('theme/assets/brands/logo-panasonic.png') }}">
-        </div>
-        <div class="fade-in-element right md:up image-container h-10 flex">
-          <img class="object-contain" src="{{ url('theme/assets/brands/logo-daikin.png') }}">
-        </div>
+        @endforeach
       </div>
     </div>
     </section>
@@ -1360,26 +1003,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
         </div>
         <div class="fade-in-element down right-container md:w-1/2">
           <div class="contact-us-form">
-            <form class="flex flex-col gap-y-8">
-              <input type="text"
-                class="w-full shadow-custom p-4 placeholder:text-medium-grey placeholder:font-light placeholder:text-lg"
-                placeholder="Name">
-              <input type="text"
-                class="w-full shadow-custom p-4 placeholder:text-medium-grey placeholder:font-light placeholder:text-lg"
-                placeholder="Phone">
-              <input type="email"
-                class="w-full shadow-custom p-4 placeholder:text-medium-grey placeholder:font-light placeholder:text-lg"
-                placeholder="Email">
-              <textarea type="text" rows="5"
-                class="w-full shadow-custom p-4 placeholder:text-medium-grey placeholder:font-light placeholder:text-lg"
-                placeholder="Messages"></textarea>
-              <div class="steps-button-container flex justify-end">
-                <button
-                  class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
-                  <p>Send Message</p>
-                </button>
-              </div>
-            </form>
+            {{ render_form($formName ?? 'contact_us') }}
           </div>
         </div>
       </div>
