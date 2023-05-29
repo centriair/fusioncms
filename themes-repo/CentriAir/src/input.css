@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: "Mathilde";
+    src: url('../fonts/mathilde.otf') format("opentype");
+  }
+
+  html {
+    font-family: "Roboto";
+    @apply text-black-primary
+  }
+
+  body {
+    margin:0;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .reset p {
+    @apply my-4;
+  }
+
+  .required {
+    position: relative;
+  }
+  
+  .required:after {
+    content: " *";
+    color: red;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+}
+
+@layer components {
+  .alert {
+    &.error {
+      @apply border-red-800 text-red-700 px-6 py-2 border-2
+    }
+    
+    &.success {
+      @apply border-green-800 text-green-700 px-6 py-2 border-2
+    }
+  }
+
+  .fade-in-element {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out, visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+
+    &.up {
+      transform: translateY(20vh);
+    }
+
+    &.down {
+      transform: translateY(-20vh);
+    }
+
+    &.left {
+      transform: translateX(20vw);
+    }
+
+    &.right {
+      transform: translateX(-20vw);
+    }
+
+    &.in-view {
+        opacity: 1;
+        transform: none;
+        visibility: visible;
+    }
+  }
+
+  .our-services-additional-content h2 {
+    @apply font-bold text-xl md:text-2xl mb-6 uppercase
+  }
+  .our-services-additional-content h3 {
+    @apply font-bold mb-4
+  }
+  .our-services-additional-content table {
+    @apply border-2 border-table-odd w-full md:w-4/5 mb-8
+  }
+  .our-services-additional-content table tr {
+    @apply odd:bg-table-odd even:bg-white
+  }
+  .our-services-additional-content table td {
+    @apply py-1 px-2 md:px-4 border-2 border-table-odd
+  }
+}
