@@ -58,3 +58,5 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CDDDE19C059444E8AB8A2E98FF957689 }}
           package: .
+      - name: 'Deploy for Laravel'
+        run: php -r "file_exists('.env') || copy('.env.example', '.env');"
