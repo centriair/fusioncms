@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c623cf205cf0019fa5b8871004c4b9f5",
+    "content-hash": "9674cbde31f7ff354a876a6f44aa6976",
     "packages": [
         {
             "name": "antweb/deployer-recipe",
@@ -91,6 +91,58 @@
                 "source": "https://github.com/antwebstudio/fusioncms-contact-form/tree/main"
             },
             "time": "2023-05-28T10:53:35+00:00"
+        },
+        {
+            "name": "antweb/fusioncms-image",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antwebstudio/fusioncms-image.git",
+                "reference": "8b13595b52aaef79849dce8fe97924f47b7033f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antwebstudio/fusioncms-image/zipball/8b13595b52aaef79849dce8fe97924f47b7033f7",
+                "reference": "8b13595b52aaef79849dce8fe97924f47b7033f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "fusioncms": {
+                    "name": "Image"
+                },
+                "laravel": {
+                    "providers": [
+                        "Addons\\Image\\Providers\\AddonServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Addons\\Image\\": "src/"
+                },
+                "classmap": [
+                    "database/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A FusionCMS addon.",
+            "keywords": [
+                "fusioncms",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/antwebstudio/fusioncms-image/issues",
+                "source": "https://github.com/antwebstudio/fusioncms-image/tree/main"
+            },
+            "time": "2023-03-02T06:27:11+00:00"
         },
         {
             "name": "antweb/fusioncms-tinymce",

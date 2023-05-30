@@ -47,7 +47,7 @@
         class="w-full max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex items-center justify-between gap-x-2 py-4 md:py-8">
         <div class="left-container">
           <a href="{{ url('/') }}">
-            <div class="w-24">
+            <div class="w-20">
               @include('partials.logo')
             </div>
           </a>
@@ -143,7 +143,7 @@
           <div class="our-services-content-paragraph-container @if($loop->first)block @else hidden @endif">
             <div class="our-services-content-title-container flex items-center gap-x-8 pb-8">
               @if($service->icon->isNotEmpty())
-              <div class="our-services-content-title-icon w-24">
+              <div class="our-services-content-title-icon w-20">
                 <img src="{{ $service->icon->first()->url }}" />
               </div>
               @endif
@@ -188,7 +188,7 @@
 
           <div class="our-services-content-paragraph-container hidden">
             <div class="our-services-content-title-container flex items-center gap-x-8 pb-8">
-              <div class="our-services-content-title-icon w-24">
+              <div class="our-services-content-title-icon w-20">
                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><title>CentriAir2_text</title><circle cx="35.77" cy="36" r="33.66" fill="#fff"/><path d="M36.08,0H36a36,36,0,0,0-.1,72H36a36,36,0,0,0,.1-72ZM59.36,59.51A32.89,32.89,0,0,1,36,69.17h-.12A33.14,33.14,0,0,1,12.64,12.49,32.89,32.89,0,0,1,36,2.83h.11A33.14,33.14,0,0,1,59.36,59.51Z" fill="#007ab7"/><circle cx="35.77" cy="36" r="33.66" fill="#fff"/><path d="M36.08,0H36a36,36,0,0,0-.1,72H36a36,36,0,0,0,.1-72ZM59.36,59.51A32.89,32.89,0,0,1,36,69.17h-.12A33.14,33.14,0,0,1,12.64,12.49,32.89,32.89,0,0,1,36,2.83h.11A33.14,33.14,0,0,1,59.36,59.51Z" fill="#007ab7"/><path d="M63.27,30.56A6.24,6.24,0,0,0,63,28.67,5.21,5.21,0,0,0,57.68,25H14a5.14,5.14,0,0,0-5.45,5.51V43.3a5.31,5.31,0,0,0,.25,1.88,5.12,5.12,0,0,0,5.28,3.63H48.64c3,0,6,0,9,.05a5.62,5.62,0,0,0,4.13-1.6,5.49,5.49,0,0,0,1.55-4.05c-.06-3-.05-6.14,0-9.13C63.26,32.89,63.26,31.73,63.27,30.56ZM61.5,43.23a3.47,3.47,0,0,1-3.79,3.82H14.41c-2.77,0-4.06-1.29-4.06-4.08V30.63c0-2.49,1.36-3.86,3.84-3.86H57.66c2.47,0,3.84,1.37,3.84,3.85Z" fill="#007ab7" stroke="#007ab7" stroke-miterlimit="10"/><path d="M52.59,40.88H19.29a5.16,5.16,0,0,0-.7,0,.82.82,0,0,0-.73.82.85.85,0,0,0,.74.88,4.16,4.16,0,0,0,.63,0H52.58a4.17,4.17,0,0,0,.73,0,.86.86,0,0,0,0-1.68A4.06,4.06,0,0,0,52.59,40.88Z" fill="#007ab7" stroke="#007ab7" stroke-miterlimit="10"/><path d="M55.29,30.31a.86.86,0,0,0-.84.88.84.84,0,0,0,.27.61.87.87,0,0,0,1.48-.64.84.84,0,0,0-.27-.61.87.87,0,0,0-.61-.24Z" fill="#007ab7" stroke="#007ab7" stroke-miterlimit="10"/></svg>
               </div>
               <div class="text-black-title our-services-content-title font-bold text-xl md:text-2xl">
@@ -340,7 +340,7 @@
           </div>
           <div class="our-services-content-paragraph-container hidden">
             <div class="our-services-content-title-container flex items-center gap-x-8 pb-8">
-              <div class="our-services-content-title-icon w-24">
+              <div class="our-services-content-title-icon w-20">
                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><title>CentriAir2_text</title><circle cx="35.77" cy="36" r="33.66" fill="#fff"/><path d="M36.08,0H36a36,36,0,0,0-.1,72H36a36,36,0,0,0,.1-72ZM59.36,59.51A32.89,32.89,0,0,1,36,69.17h-.12A33.14,33.14,0,0,1,12.64,12.49,32.89,32.89,0,0,1,36,2.83h.11A33.14,33.14,0,0,1,59.36,59.51Z" fill="#007ab7"/><path d="M54.34,38.29c-.14-.08-.15-.1-.15-.31V29.61A9.78,9.78,0,0,0,54,27.45,10.26,10.26,0,0,0,43.56,19H35.25c-.22,0-.25,0-.35-.19a2.71,2.71,0,0,0-2.32-1.33h0a2.68,2.68,0,0,0-2.3,1.31c-.11.19-.16.21-.39.21h0c-4.68,0-9.37,0-14,0a1,1,0,0,0-1.11,1.12c0,4.4,0,8.44,0,12.36a1.19,1.19,0,0,0,.27.87,1.15,1.15,0,0,0,.88.27c3.16,0,6.31,0,9.47,0h4.58c.23,0,.23,0,.31.14a2.7,2.7,0,0,0,2.32,1.36h0a2.79,2.79,0,0,0,2.37-1.36c.08-.14.1-.14.19-.14h4.07c.38,0,.41,0,.41.4v1.82c0,.75,0,1.49,0,2.24,0,.13,0,.13-.12.2a2.8,2.8,0,0,0-1.39,2.38A2.72,2.72,0,0,0,39.45,43c.15.09.16.1.16.31,0,1.79,0,3.58,0,5.38v3.53c0,1.75,0,3.51,0,5.26a1.06,1.06,0,0,0,.25.79,1,1,0,0,0,.81.26q6.24,0,12.48,0h0a1.05,1.05,0,0,0,.79-.26,1.08,1.08,0,0,0,.26-.83q0-4.38,0-8.74V43.29c0-.21,0-.22.14-.3a2.7,2.7,0,0,0,0-4.7Zm-7.44,2.6H41.16c-.36,0-.54-.09-.55-.25a.17.17,0,0,1,0-.12.76.76,0,0,1,.52-.14H52.64c.53,0,.54.17.54.25s0,.12,0,.13a.74.74,0,0,1-.51.13ZM35.34,26.3V25c0-1.16,0-2.31,0-3.47H39c1.69,0,3.37,0,5,0a7.82,7.82,0,0,1,7.68,7.66c0,1.64,0,3.28,0,4.93q0,1.88,0,3.75H42.09c0-1.3,0-2.6,0-3.89a2.67,2.67,0,0,0-2.86-2.87c-1.28,0-2.55,0-3.83,0h-.08v-.06c0-1.14,0-2.29,0-3.43ZM42.1,49.67V48c0-1.53,0-3.07,0-4.6v0h.06c3.16,0,6.33,0,9.49,0h.06v0q0,6.27,0,12.55h0c-3.19,0-6.38,0-9.56,0h0v-.07c0-1.53,0-3.05,0-4.58ZM32.83,32a1.51,1.51,0,0,1,0,.3c0,.3-.17.3-.25.29s-.24,0-.25-.29V20.44a.46.46,0,0,1,.14-.39.1.1,0,0,1,.08,0l.09,0c.1,0,.2.06.2.41V32ZM17.22,21.6v-.09H29.83v0c0,3.16,0,6.33,0,9.49v.07h-.1q-6.21,0-12.43,0h-.08V31C17.25,27.64,17.25,24.55,17.22,21.6Z" fill="#007ab7"/></svg>
               </div>
               <div class="text-black-title our-services-content-title font-bold text-xl md:text-2xl">
@@ -385,7 +385,7 @@
           </div>
           <div class="our-services-content-paragraph-container hidden">
             <div class="our-services-content-title-container flex items-center gap-x-8 pb-8">
-              <div class="our-services-content-title-icon w-24">
+              <div class="our-services-content-title-icon w-20">
                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.05 72">
                   <title>CentriAir_MU</title>
                   <path
@@ -468,7 +468,7 @@
           </div>
           <div class="our-services-content-paragraph-container hidden">
             <div class="our-services-content-title-container flex items-center gap-x-8 pb-8">
-              <div class="our-services-content-title-icon w-24">
+              <div class="our-services-content-title-icon w-20">
                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.05 72">
                   <title>CentriAir_MU</title>
                   <path

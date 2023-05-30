@@ -57,7 +57,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
       class="w-full max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex items-center justify-between gap-x-2 py-4 md:py-8">
       <div class="left-container">
         <a href="{{ url('/') }}">
-          <div class="w-24">
+          <div class="w-20">
             @include('partials.logo')
           </div>
         </a>

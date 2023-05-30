@@ -5,7 +5,7 @@
     $homepage = $homepage ?? false;
 @endphp
 @if($productModel)
-<div class="flex flex-col sm:w-1/2 md:w-1/3 my-3 {{ $container }}">
+<div class="flex flex-col sm:w-1/2 md:w-1/3 my-3 w-full {{ $container }}">
     @if(!$showAsBrand)
         <div class="logo flex flex-wrap justify-center mb-8">
             @if(!$homepage)
@@ -71,18 +71,20 @@
     </div>
     </div>
     
+    @if(!$homepage)
     <div class="steps-button-container flex justify-center pt-4 md:pt-8 mb-3">
-        @if(!$showAsBrand && !$homepage)
+        @if(!$showAsBrand)
             <a href="{{ $brand->url }}"
                 class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
                 <p>Get Started</p>
             </a>
-        @elseif($settings->registration_form && !$homepage)
+        @elseif($settings->registration_form)
             <a href="{{ $settings->registration_form }}"
                 class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
                 <p>Choose This!</p>
             </a>
         @endif
     </div>
+    @endif
 </div>
 @endif
