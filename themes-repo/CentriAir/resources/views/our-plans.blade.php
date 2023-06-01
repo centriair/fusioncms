@@ -225,7 +225,7 @@
                 <p>Xtreme saver inverter</p>
               </div>
               <div class="brochure-item-download-link w-6">
-                <a target="_blank"  href="./assets/pdf/midea/Midea MSXS Series R32 WallMount Inverter Xtreme SavE.pdf">
+                <a target="_blank"  href="{{ url('theme/assets/pdf/midea/Midea MSXS Series R32 WallMount Inverter Xtreme SavE.pdf') }}">
                   <svg class="fill-light-grey group-hover:fill-blue-primary" xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" viewBox="0 0 250.185 237.698">
                     <g id="Group_123" data-name="Group 123" transform="translate(-5770.66 -2086)">
@@ -248,7 +248,7 @@
                 <p>All easy pro inverter </p>
               </div>
               <div class="brochure-item-download-link w-6">
-                <a target="_blank"  href="./assets/pdf/midea/Midea MSEP & MSAPB Series  R32 WallMount Inverter & Non-Inverter All Easy Pro.pdf">
+                <a target="_blank"  href="{{ url('theme/assets/pdf/midea/Midea MSEP & MSAPB Series  R32 WallMount Inverter & Non-Inverter All Easy Pro.pdf') }}">
                   <svg class="fill-light-grey group-hover:fill-blue-primary" xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" viewBox="0 0 250.185 237.698">
                     <g id="Group_123" data-name="Group 123" transform="translate(-5770.66 -2086)">
@@ -271,7 +271,7 @@
                 <p>Airstill inverter</p>
               </div>
               <div class="brochure-item-download-link w-6">
-                <a target="_blank"  href="./assets/pdf/midea/Midea MSFAAU Series R32 WallMount Inverter AirStill.pdf">
+                <a target="_blank"  href="{{ url('theme/assets/pdf/midea/Midea MSFAAU Series R32 WallMount Inverter AirStill.pdf') }}">
                   <svg class="fill-light-grey group-hover:fill-blue-primary" xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" viewBox="0 0 250.185 237.698">
                     <g id="Group_123" data-name="Group 123" transform="translate(-5770.66 -2086)">
@@ -297,7 +297,7 @@
                 <p>Standard inverter</p>
               </div>
               <div class="brochure-item-download-link w-6">
-                <a target="_blank"  href="./assets/pdf/panasonic/Panasonic PU Series R32 WallMount Standard Inverter.pdf">
+                <a target="_blank"  href="{{ url('theme/assets/pdf/panasonic/Panasonic PU Series R32 WallMount Standard Inverter.pdf') }}">
                   <svg class="fill-light-grey group-hover:fill-blue-primary" xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" viewBox="0 0 250.185 237.698">
                     <g id="Group_123" data-name="Group 123" transform="translate(-5770.66 -2086)">
@@ -320,7 +320,7 @@
                 <p>X-Deluxe inverter </p>
               </div>
               <div class="brochure-item-download-link w-6">
-                <a target="_blank"  href="./assets/pdf/panasonic/Panasonic XPU Series R32 WallMount X-Deluxe Inverter.pdf">
+                <a target="_blank"  href="{{ url('theme/assets/pdf/panasonic/Panasonic XPU Series R32 WallMount X-Deluxe Inverter.pdf') }}">
                   <svg class="fill-light-grey group-hover:fill-blue-primary" xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" viewBox="0 0 250.185 237.698">
                     <g id="Group_123" data-name="Group 123" transform="translate(-5770.66 -2086)">
@@ -343,7 +343,7 @@
                 <p>X-premium inverter</p>
               </div>
               <div class="brochure-item-download-link w-6">
-                <a target="_blank"  href="./assets/pdf/panasonic/Panasonic XU Series R32 X-Premium Inverter.pdf">
+                <a target="_blank"  href="{{ url('theme/assets/pdf/panasonic/Panasonic XU Series R32 X-Premium Inverter.pdf') }}">
                   <svg class="fill-light-grey group-hover:fill-blue-primary" xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" viewBox="0 0 250.185 237.698">
                     <g id="Group_123" data-name="Group 123" transform="translate(-5770.66 -2086)">
@@ -369,7 +369,7 @@
                 <p>Standard inverter</p>
               </div>
               <div class="brochure-item-download-link w-6">
-                <a target="_blank"  href="./assets/pdf/daikin/Daikin FTKF Series R32 WallMount Standard-Inverter Built-in-Wifi.pdf">
+                <a target="_blank"  href="{{ url('theme/assets/pdf/daikin/Daikin FTKF Series R32 WallMount Standard-Inverter Built-in-Wifi.pdf') }}">
                   <svg class="fill-light-grey group-hover:fill-blue-primary" xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" viewBox="0 0 250.185 237.698">
                     <g id="Group_123" data-name="Group 123" transform="translate(-5770.66 -2086)">
@@ -392,7 +392,7 @@
                 <p>Smarto inverter</p>
               </div>
               <div class="brochure-item-download-link w-6">
-                <a target="_blank"  href="./assets/pdf/daikin/Daikin FTKH Series R32 WallMount Premium-Inverter Built-in-Wifi.pdf">
+                <a target="_blank"  href="{{ url('theme/assets/pdf/daikin/Daikin FTKH Series R32 WallMount Premium-Inverter Built-in-Wifi.pdf') }}">
                   <svg class="fill-light-grey group-hover:fill-blue-primary" xmlns="http://www.w3.org/2000/svg"
                     width="100%" height="100%" viewBox="0 0 250.185 237.698">
                     <g id="Group_123" data-name="Group 123" transform="translate(-5770.66 -2086)">

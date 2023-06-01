@@ -984,6 +984,14 @@ body {
   width: 100%;
 }
 
+.w-\[300\] {
+  width: 300;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
 .max-w-screen-sm {
   max-width: 640px;
 }
@@ -1698,6 +1706,10 @@ body {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-\[300px\] {
+    width: 300px;
   }
 
   .md\:max-w-screen-lg {
