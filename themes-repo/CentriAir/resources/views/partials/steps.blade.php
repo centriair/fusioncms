@@ -33,7 +33,11 @@
         <div class="grid-item text-center flex flex-col">
           @if($step->icon->isNotEmpty())
           <div class="grid-item-image w-28 mx-auto pb-2">
-            <img src="{{ $step->icon->first()->url }}"/>
+            @if($step->icon->first()->mimetype == 'image/svg+xml')
+              {!! file_get_contents(($step->icon->first()->fullPath)) !!}
+            @else
+              <img src="{{ $step->icon->first()->url }}"/>
+            @endif
           </div>
           @endif
           <div class="grid-title">

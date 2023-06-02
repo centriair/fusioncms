@@ -5,9 +5,9 @@
 @layer base {
   @font-face {
     font-display: swap;
-    font-family: "Roboto";
+    font-family: "Metropolis";
     font-weight: 400;
-    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('../fonts/Metropolis-Regular.ttf') format('truetype');
   }
 
   @font-face {
@@ -16,7 +16,7 @@
   }
 
   html {
-    font-family: "Roboto";
+    font-family: "Metropolis";
     @apply text-black-primary
   }
 
@@ -27,7 +27,7 @@
   }
 
   .reset p {
-    @apply my-4;
+    @apply my-4 sm:my-2 md:my-4;
   }
 
   .required {
@@ -85,7 +85,7 @@
 
   .btn-primary {
     /* @apply bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary */
-    @apply bg-blue-primary text-white px-6 py-1 rounded-xl shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary
+    @apply sm:text-xs md:text-base bg-blue-primary text-white px-6 md:px-6 sm:px-4 py-1 sm:py-0.5 md:py-1 rounded-xl shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary
   }
 
   .our-services-additional-content h2 {
