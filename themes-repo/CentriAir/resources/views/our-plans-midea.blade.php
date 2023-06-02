@@ -872,8 +872,8 @@
   <footer
     class="w-full max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex flex-col max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex flex-col py-2 relative z-50">
     <div
-      class="footer-container sm:flex pb-2 sm:pb-0 text-center sm:text-left justify-between font-light text-light-grey">
-      <div class="copyright">@2023, Copyright CentriAir Solutions. All rights reserved</div>
+      class="footer-container sm:flex pb-2 sm:pb-0 text-center md:text-base sm:text-sm  sm:text-left justify-between font-light text-light-grey">
+      <div class="copyright">&copy;{{ date('Y') }} Copyright CentriAir Solutions. All rights reserved</div>
       <div class="credits">Website designed by <a href="https://antwebstudio.com">Ant Web Studio</a></div>
     </div>
   </footer>

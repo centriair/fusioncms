@@ -154,7 +154,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <h2>cooling needs!</h2>
           </div>
           <div class="h-0.5 bg-blue-primary w-20 my-4"></div>
-          <div class="reset about-us-tag-line font-light pb-4 text-[14px] leading-[170%]">
+          <div class="reset about-us-tag-line font-light pb-4 md:pb-4 sm:pb-2 text-[14px] leading-[170%]">
             <p>Say goodbye to buying and maintaining air conditioners with short warranties.</p>
             <p>At CentriAir, you can now experience a worry-free rental option for a cool and
               comfortable environment, up to 5 years warranty.</p>
@@ -497,8 +497,8 @@ with: href="{{ url('theme/assets/css/style.css') }}"
   <footer
     class="w-full max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex flex-col max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex flex-col py-2 relative z-50">
     <div
-      class="footer-container sm:flex pb-2 sm:pb-0 text-center sm:text-left justify-between font-light text-light-grey">
-      <div class="copyright">@2023, Copyright CentriAir Solutions. All rights reserved</div>
+      class="footer-container sm:flex pb-2 sm:pb-0 text-center md:text-base sm:text-sm  sm:text-left justify-between font-light text-light-grey">
+      <div class="copyright">&copy;{{ date('Y') }} Copyright CentriAir Solutions. All rights reserved</div>
       <div class="credits">Website designed by <a href="https://antwebstudio.com">Ant Web Studio</a></div>
     </div>
   </footer>
