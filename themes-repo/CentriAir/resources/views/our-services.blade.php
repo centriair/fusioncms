@@ -61,7 +61,7 @@
               <div class="triangle w-3"><svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 67.662 101.309">
                   <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                    transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                    transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
                 </svg>
               </div>
               <a href="{{ url('our-services') }}">Other Services</a>
@@ -71,7 +71,7 @@
         </div>
         <div onclick="expandMenu()" class="block md:hidden">
           <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-            fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="6" x2="21" y2="6"></line>
             <line x1="3" y1="18" x2="21" y2="18"></line>
@@ -88,7 +88,7 @@
             <div class="triangle w-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full"
                 viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
               </svg>
             </div>
             <a href="{{ url('our-services') }}">Other Services</a>
@@ -161,7 +161,7 @@
                 <li class="point-items flex gap-x-4 items-start">
                   <div class="w-1/12 sm:w-6">
                     <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                      viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                       stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
@@ -189,7 +189,7 @@
           <div class="our-services-content-paragraph-container hidden">
             <div class="our-services-content-title-container flex items-center gap-x-8 pb-8">
               <div class="our-services-content-title-icon w-20">
-                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><title>CentriAir2_text</title><circle cx="35.77" cy="36" r="33.66" fill="#fff"/><path d="M36.08,0H36a36,36,0,0,0-.1,72H36a36,36,0,0,0,.1-72ZM59.36,59.51A32.89,32.89,0,0,1,36,69.17h-.12A33.14,33.14,0,0,1,12.64,12.49,32.89,32.89,0,0,1,36,2.83h.11A33.14,33.14,0,0,1,59.36,59.51Z" fill="#007ab7"/><circle cx="35.77" cy="36" r="33.66" fill="#fff"/><path d="M36.08,0H36a36,36,0,0,0-.1,72H36a36,36,0,0,0,.1-72ZM59.36,59.51A32.89,32.89,0,0,1,36,69.17h-.12A33.14,33.14,0,0,1,12.64,12.49,32.89,32.89,0,0,1,36,2.83h.11A33.14,33.14,0,0,1,59.36,59.51Z" fill="#007ab7"/><path d="M63.27,30.56A6.24,6.24,0,0,0,63,28.67,5.21,5.21,0,0,0,57.68,25H14a5.14,5.14,0,0,0-5.45,5.51V43.3a5.31,5.31,0,0,0,.25,1.88,5.12,5.12,0,0,0,5.28,3.63H48.64c3,0,6,0,9,.05a5.62,5.62,0,0,0,4.13-1.6,5.49,5.49,0,0,0,1.55-4.05c-.06-3-.05-6.14,0-9.13C63.26,32.89,63.26,31.73,63.27,30.56ZM61.5,43.23a3.47,3.47,0,0,1-3.79,3.82H14.41c-2.77,0-4.06-1.29-4.06-4.08V30.63c0-2.49,1.36-3.86,3.84-3.86H57.66c2.47,0,3.84,1.37,3.84,3.85Z" fill="#007ab7" stroke="#007ab7" stroke-miterlimit="10"/><path d="M52.59,40.88H19.29a5.16,5.16,0,0,0-.7,0,.82.82,0,0,0-.73.82.85.85,0,0,0,.74.88,4.16,4.16,0,0,0,.63,0H52.58a4.17,4.17,0,0,0,.73,0,.86.86,0,0,0,0-1.68A4.06,4.06,0,0,0,52.59,40.88Z" fill="#007ab7" stroke="#007ab7" stroke-miterlimit="10"/><path d="M55.29,30.31a.86.86,0,0,0-.84.88.84.84,0,0,0,.27.61.87.87,0,0,0,1.48-.64.84.84,0,0,0-.27-.61.87.87,0,0,0-.61-.24Z" fill="#007ab7" stroke="#007ab7" stroke-miterlimit="10"/></svg>
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><title>CentriAir2_text</title><circle cx="35.77" cy="36" r="33.66" fill="#fff"/><path d="M36.08,0H36a36,36,0,0,0-.1,72H36a36,36,0,0,0,.1-72ZM59.36,59.51A32.89,32.89,0,0,1,36,69.17h-.12A33.14,33.14,0,0,1,12.64,12.49,32.89,32.89,0,0,1,36,2.83h.11A33.14,33.14,0,0,1,59.36,59.51Z" fill="#315FAA"/><circle cx="35.77" cy="36" r="33.66" fill="#fff"/><path d="M36.08,0H36a36,36,0,0,0-.1,72H36a36,36,0,0,0,.1-72ZM59.36,59.51A32.89,32.89,0,0,1,36,69.17h-.12A33.14,33.14,0,0,1,12.64,12.49,32.89,32.89,0,0,1,36,2.83h.11A33.14,33.14,0,0,1,59.36,59.51Z" fill="#315FAA"/><path d="M63.27,30.56A6.24,6.24,0,0,0,63,28.67,5.21,5.21,0,0,0,57.68,25H14a5.14,5.14,0,0,0-5.45,5.51V43.3a5.31,5.31,0,0,0,.25,1.88,5.12,5.12,0,0,0,5.28,3.63H48.64c3,0,6,0,9,.05a5.62,5.62,0,0,0,4.13-1.6,5.49,5.49,0,0,0,1.55-4.05c-.06-3-.05-6.14,0-9.13C63.26,32.89,63.26,31.73,63.27,30.56ZM61.5,43.23a3.47,3.47,0,0,1-3.79,3.82H14.41c-2.77,0-4.06-1.29-4.06-4.08V30.63c0-2.49,1.36-3.86,3.84-3.86H57.66c2.47,0,3.84,1.37,3.84,3.85Z" fill="#315FAA" stroke="#315FAA" stroke-miterlimit="10"/><path d="M52.59,40.88H19.29a5.16,5.16,0,0,0-.7,0,.82.82,0,0,0-.73.82.85.85,0,0,0,.74.88,4.16,4.16,0,0,0,.63,0H52.58a4.17,4.17,0,0,0,.73,0,.86.86,0,0,0,0-1.68A4.06,4.06,0,0,0,52.59,40.88Z" fill="#315FAA" stroke="#315FAA" stroke-miterlimit="10"/><path d="M55.29,30.31a.86.86,0,0,0-.84.88.84.84,0,0,0,.27.61.87.87,0,0,0,1.48-.64.84.84,0,0,0-.27-.61.87.87,0,0,0-.61-.24Z" fill="#315FAA" stroke="#315FAA" stroke-miterlimit="10"/></svg>
               </div>
               <div class="text-black-title our-services-content-title font-bold text-xl md:text-2xl">
                 <h2>Air conditioner dismantling and Installation</h2>
@@ -206,7 +206,7 @@
                 <li class="point-items flex gap-x-4 items-start">
                   <div class="w-1/12 sm:w-6">
                     <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                      viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                       stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
@@ -218,7 +218,7 @@
                 <li class="point-items flex gap-x-4 items-start">
                   <div class="w-1/12 sm:w-6">
                     <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                      viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                       stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
@@ -341,7 +341,7 @@
           <div class="our-services-content-paragraph-container hidden">
             <div class="our-services-content-title-container flex items-center gap-x-8 pb-8">
               <div class="our-services-content-title-icon w-20">
-                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><title>CentriAir2_text</title><circle cx="35.77" cy="36" r="33.66" fill="#fff"/><path d="M36.08,0H36a36,36,0,0,0-.1,72H36a36,36,0,0,0,.1-72ZM59.36,59.51A32.89,32.89,0,0,1,36,69.17h-.12A33.14,33.14,0,0,1,12.64,12.49,32.89,32.89,0,0,1,36,2.83h.11A33.14,33.14,0,0,1,59.36,59.51Z" fill="#007ab7"/><path d="M54.34,38.29c-.14-.08-.15-.1-.15-.31V29.61A9.78,9.78,0,0,0,54,27.45,10.26,10.26,0,0,0,43.56,19H35.25c-.22,0-.25,0-.35-.19a2.71,2.71,0,0,0-2.32-1.33h0a2.68,2.68,0,0,0-2.3,1.31c-.11.19-.16.21-.39.21h0c-4.68,0-9.37,0-14,0a1,1,0,0,0-1.11,1.12c0,4.4,0,8.44,0,12.36a1.19,1.19,0,0,0,.27.87,1.15,1.15,0,0,0,.88.27c3.16,0,6.31,0,9.47,0h4.58c.23,0,.23,0,.31.14a2.7,2.7,0,0,0,2.32,1.36h0a2.79,2.79,0,0,0,2.37-1.36c.08-.14.1-.14.19-.14h4.07c.38,0,.41,0,.41.4v1.82c0,.75,0,1.49,0,2.24,0,.13,0,.13-.12.2a2.8,2.8,0,0,0-1.39,2.38A2.72,2.72,0,0,0,39.45,43c.15.09.16.1.16.31,0,1.79,0,3.58,0,5.38v3.53c0,1.75,0,3.51,0,5.26a1.06,1.06,0,0,0,.25.79,1,1,0,0,0,.81.26q6.24,0,12.48,0h0a1.05,1.05,0,0,0,.79-.26,1.08,1.08,0,0,0,.26-.83q0-4.38,0-8.74V43.29c0-.21,0-.22.14-.3a2.7,2.7,0,0,0,0-4.7Zm-7.44,2.6H41.16c-.36,0-.54-.09-.55-.25a.17.17,0,0,1,0-.12.76.76,0,0,1,.52-.14H52.64c.53,0,.54.17.54.25s0,.12,0,.13a.74.74,0,0,1-.51.13ZM35.34,26.3V25c0-1.16,0-2.31,0-3.47H39c1.69,0,3.37,0,5,0a7.82,7.82,0,0,1,7.68,7.66c0,1.64,0,3.28,0,4.93q0,1.88,0,3.75H42.09c0-1.3,0-2.6,0-3.89a2.67,2.67,0,0,0-2.86-2.87c-1.28,0-2.55,0-3.83,0h-.08v-.06c0-1.14,0-2.29,0-3.43ZM42.1,49.67V48c0-1.53,0-3.07,0-4.6v0h.06c3.16,0,6.33,0,9.49,0h.06v0q0,6.27,0,12.55h0c-3.19,0-6.38,0-9.56,0h0v-.07c0-1.53,0-3.05,0-4.58ZM32.83,32a1.51,1.51,0,0,1,0,.3c0,.3-.17.3-.25.29s-.24,0-.25-.29V20.44a.46.46,0,0,1,.14-.39.1.1,0,0,1,.08,0l.09,0c.1,0,.2.06.2.41V32ZM17.22,21.6v-.09H29.83v0c0,3.16,0,6.33,0,9.49v.07h-.1q-6.21,0-12.43,0h-.08V31C17.25,27.64,17.25,24.55,17.22,21.6Z" fill="#007ab7"/></svg>
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><title>CentriAir2_text</title><circle cx="35.77" cy="36" r="33.66" fill="#fff"/><path d="M36.08,0H36a36,36,0,0,0-.1,72H36a36,36,0,0,0,.1-72ZM59.36,59.51A32.89,32.89,0,0,1,36,69.17h-.12A33.14,33.14,0,0,1,12.64,12.49,32.89,32.89,0,0,1,36,2.83h.11A33.14,33.14,0,0,1,59.36,59.51Z" fill="#315FAA"/><path d="M54.34,38.29c-.14-.08-.15-.1-.15-.31V29.61A9.78,9.78,0,0,0,54,27.45,10.26,10.26,0,0,0,43.56,19H35.25c-.22,0-.25,0-.35-.19a2.71,2.71,0,0,0-2.32-1.33h0a2.68,2.68,0,0,0-2.3,1.31c-.11.19-.16.21-.39.21h0c-4.68,0-9.37,0-14,0a1,1,0,0,0-1.11,1.12c0,4.4,0,8.44,0,12.36a1.19,1.19,0,0,0,.27.87,1.15,1.15,0,0,0,.88.27c3.16,0,6.31,0,9.47,0h4.58c.23,0,.23,0,.31.14a2.7,2.7,0,0,0,2.32,1.36h0a2.79,2.79,0,0,0,2.37-1.36c.08-.14.1-.14.19-.14h4.07c.38,0,.41,0,.41.4v1.82c0,.75,0,1.49,0,2.24,0,.13,0,.13-.12.2a2.8,2.8,0,0,0-1.39,2.38A2.72,2.72,0,0,0,39.45,43c.15.09.16.1.16.31,0,1.79,0,3.58,0,5.38v3.53c0,1.75,0,3.51,0,5.26a1.06,1.06,0,0,0,.25.79,1,1,0,0,0,.81.26q6.24,0,12.48,0h0a1.05,1.05,0,0,0,.79-.26,1.08,1.08,0,0,0,.26-.83q0-4.38,0-8.74V43.29c0-.21,0-.22.14-.3a2.7,2.7,0,0,0,0-4.7Zm-7.44,2.6H41.16c-.36,0-.54-.09-.55-.25a.17.17,0,0,1,0-.12.76.76,0,0,1,.52-.14H52.64c.53,0,.54.17.54.25s0,.12,0,.13a.74.74,0,0,1-.51.13ZM35.34,26.3V25c0-1.16,0-2.31,0-3.47H39c1.69,0,3.37,0,5,0a7.82,7.82,0,0,1,7.68,7.66c0,1.64,0,3.28,0,4.93q0,1.88,0,3.75H42.09c0-1.3,0-2.6,0-3.89a2.67,2.67,0,0,0-2.86-2.87c-1.28,0-2.55,0-3.83,0h-.08v-.06c0-1.14,0-2.29,0-3.43ZM42.1,49.67V48c0-1.53,0-3.07,0-4.6v0h.06c3.16,0,6.33,0,9.49,0h.06v0q0,6.27,0,12.55h0c-3.19,0-6.38,0-9.56,0h0v-.07c0-1.53,0-3.05,0-4.58ZM32.83,32a1.51,1.51,0,0,1,0,.3c0,.3-.17.3-.25.29s-.24,0-.25-.29V20.44a.46.46,0,0,1,.14-.39.1.1,0,0,1,.08,0l.09,0c.1,0,.2.06.2.41V32ZM17.22,21.6v-.09H29.83v0c0,3.16,0,6.33,0,9.49v.07h-.1q-6.21,0-12.43,0h-.08V31C17.25,27.64,17.25,24.55,17.22,21.6Z" fill="#315FAA"/></svg>
               </div>
               <div class="text-black-title our-services-content-title font-bold text-xl md:text-2xl">
                 <h2>Seamless concealment of air conditioner pipes</h2>
@@ -357,7 +357,7 @@
                 <li class="point-items flex gap-x-4 items-start">
                   <div class="w-1/12 sm:w-6">
                     <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                      viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                       stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
@@ -369,7 +369,7 @@
                 <li class="point-items flex gap-x-4 items-start">
                   <div class="w-1/12 sm:w-6">
                     <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                      viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                       stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
@@ -390,9 +390,9 @@
                   <title>CentriAir_MU</title>
                   <path
                     d="M16.91,64.58c-.6,3-1.65,3.88-4.62,3.89-3.49,0-7,0-10.46,0-.65,0-1.29,0-1.67-.65s0-1.21.35-1.76c.82-1.38,1.62-2.78,2.49-4.13a1.11,1.11,0,0,0,0-1.4C2.09,59.14,1.27,57.72.43,56.3S0,54.05,1.65,54.06c.66,0,.83-.1.82-.84-.06-5.78,0-11.56,0-17.34A3.11,3.11,0,0,1,4,33.08a1.47,1.47,0,0,0,.75-1.54c0-5.85,0-11.71,0-17.56A3.74,3.74,0,0,1,8.61,9.93,44.06,44.06,0,0,0,32.93,1.41a6.89,6.89,0,0,1,2-1.24,3.76,3.76,0,0,1,3.57.76A44.18,44.18,0,0,0,56.41,9.07a38.39,38.39,0,0,0,6.68.85c2.8.08,4.2,1.5,4.21,4.28,0,5.81,0,11.63,0,17.45A1.4,1.4,0,0,0,68,33.07a3.32,3.32,0,0,1,1.6,3c0,5.78,0,11.56,0,17.34,0,.52.12.59.58.61,2,.1,2.36.75,1.29,2.54-.76,1.28-1.48,2.6-2.32,3.83a1.3,1.3,0,0,0,0,1.69c.86,1.36,1.67,2.75,2.49,4.14s.31,2.21-1.3,2.21H59.76c-3,0-4-.87-4.61-3.84-1.31.72-2.57,1.47-3.88,2.13a61.66,61.66,0,0,1-14.53,5.17,4.92,4.92,0,0,1-2.3-.21A58.71,58.71,0,0,1,16.91,64.58ZM36.14,34.84H6.75c-1.65,0-2,.33-2,1.94V52.09c0,1.63.33,1.95,2,1.95H65.29c1.69,0,2-.32,2-2.06V36.9c0-1.77-.3-2.06-2.1-2.06ZM36,32.43c7.68,0,15.37,0,23.06,0,.83,0,1.07-.18,1.06-1,0-4.5-.05-9,0-13.5,0-.86-.28-1.08-1.05-1.15a42.07,42.07,0,0,1-7-1.35A52.11,52.11,0,0,1,36.65,8.5c-.39-.26-.67-.41-1.16-.08A51.71,51.71,0,0,1,12.9,16.79c-.78.09-.94.37-.94,1.11,0,4.47,0,8.93,0,13.39,0,1,.24,1.17,1.17,1.16C20.74,32.41,28.35,32.43,36,32.43ZM7.21,22.68c0,2.89.06,5.78,0,8.67,0,1,.38,1.12,1.22,1.11s1.25-.06,1.24-1.11c-.06-5,0-10,0-15,0-1.38.21-1.64,1.58-1.78A50.24,50.24,0,0,0,33.55,6.83c2.92-1.87,2-1.93,4.92,0a49.85,49.85,0,0,0,22.24,7.76c1.6.17,1.73.37,1.73,2,0,5,0,10,0,15,0,.9.39,1,1.07.9.53-.09,1.38.46,1.37-.8,0-5.93,0-11.86,0-17.79a1.29,1.29,0,0,0-1.43-1.47c-1.12,0-2.25-.1-3.36-.24A47,47,0,0,1,37.29,3,1.78,1.78,0,0,0,34.8,3a46.75,46.75,0,0,1-26,9.37c-1.27.07-1.57.38-1.57,1.65Q7.21,18.35,7.21,22.68ZM18.56,56.49a17.66,17.66,0,0,0,4.06,3.11A52.94,52.94,0,0,0,33.38,64c1.32.38,2.57.86,4,.42,4.76-1.45,9.45-3.07,13.64-5.84a9.24,9.24,0,0,0,2.35-2.07Zm-1.68,1.86c-.07,3.74-.66,2.83,2.3,4.75a47.79,47.79,0,0,0,11.87,5.2c2.63.82,5.16,1.59,8,.64,5-1.66,10-3.35,14.44-6.26,1.88-1.22,2.11-2,1.52-4.31a22.41,22.41,0,0,1-4.88,3.57,54.89,54.89,0,0,1-10.46,4.25c-1.41.41-2.83,1.22-4.35.81C28.73,65.24,22.27,63.09,16.88,58.35ZM3.35,66h9.7a1.09,1.09,0,0,0,1.08-.47c.28-.53-.26-.72-.52-1-2.4-2.43-4.87-4.79-7.21-7.27-.89-.95-1.81-.89-3-.72.69,1.14,1.23,2.21,1.93,3.16a2.33,2.33,0,0,1,0,3.06C4.62,63.76,4.07,64.81,3.35,66Zm65.37-9.58c-1.09.16-2-.26-2.7.51-2.56,2.62-5.17,5.2-7.75,7.79-.2.2-.55.37-.4.73a.88.88,0,0,0,.8.52l.22,0h9.8c-.8-1.35-1.47-2.54-2.21-3.69a1.77,1.77,0,0,1,0-2.16C67.22,59,67.89,57.84,68.72,56.44ZM14.41,61.78V57.06c0-.33,0-.59-.45-.58-1.58,0-3.16,0-4.81,0Zm43.23-.44,5-4.86c-1.34,0-2.83,0-4.33,0-.45,0-.66.1-.65.61C57.66,58.61,57.64,60.13,57.64,61.34Z"
-                    fill="#007ab7" /><text transform="translate(29.09 30.57)" font-size="24.19" fill="#007ab7"
+                    fill="#315FAA" /><text transform="translate(29.09 30.57)" font-size="24.19" fill="#315FAA"
                     font-family="Roboto-Bold, Roboto" font-weight="700">5</text><text transform="translate(9.07 50.9)"
-                    font-size="17.35" fill="#007ab7" font-family="Roboto-Bold, Roboto" font-weight="700">YEARS</text>
+                    font-size="17.35" fill="#315FAA" font-family="Roboto-Bold, Roboto" font-weight="700">YEARS</text>
                 </svg>
               </div>
               <div class="text-black-title our-services-content-title font-bold text-xl md:text-2xl">
@@ -413,7 +413,7 @@
                 <li class="point-items flex gap-x-4 items-start">
                   <div class="w-1/12 sm:w-6">
                     <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                      viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                       stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
@@ -425,7 +425,7 @@
                 <li class="point-items flex gap-x-4 items-start">
                   <div class="w-1/12 sm:w-6">
                     <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                      viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                       stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
@@ -437,7 +437,7 @@
                 <li class="point-items flex gap-x-4 items-start">
                   <div class="w-1/12 sm:w-6">
                     <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                      viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                       stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
@@ -449,7 +449,7 @@
                 <li class="point-items flex gap-x-4 items-start">
                   <div class="w-1/12 sm:w-6">
                     <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                      viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                       stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
@@ -473,9 +473,9 @@
                   <title>CentriAir_MU</title>
                   <path
                     d="M16.91,64.58c-.6,3-1.65,3.88-4.62,3.89-3.49,0-7,0-10.46,0-.65,0-1.29,0-1.67-.65s0-1.21.35-1.76c.82-1.38,1.62-2.78,2.49-4.13a1.11,1.11,0,0,0,0-1.4C2.09,59.14,1.27,57.72.43,56.3S0,54.05,1.65,54.06c.66,0,.83-.1.82-.84-.06-5.78,0-11.56,0-17.34A3.11,3.11,0,0,1,4,33.08a1.47,1.47,0,0,0,.75-1.54c0-5.85,0-11.71,0-17.56A3.74,3.74,0,0,1,8.61,9.93,44.06,44.06,0,0,0,32.93,1.41a6.89,6.89,0,0,1,2-1.24,3.76,3.76,0,0,1,3.57.76A44.18,44.18,0,0,0,56.41,9.07a38.39,38.39,0,0,0,6.68.85c2.8.08,4.2,1.5,4.21,4.28,0,5.81,0,11.63,0,17.45A1.4,1.4,0,0,0,68,33.07a3.32,3.32,0,0,1,1.6,3c0,5.78,0,11.56,0,17.34,0,.52.12.59.58.61,2,.1,2.36.75,1.29,2.54-.76,1.28-1.48,2.6-2.32,3.83a1.3,1.3,0,0,0,0,1.69c.86,1.36,1.67,2.75,2.49,4.14s.31,2.21-1.3,2.21H59.76c-3,0-4-.87-4.61-3.84-1.31.72-2.57,1.47-3.88,2.13a61.66,61.66,0,0,1-14.53,5.17,4.92,4.92,0,0,1-2.3-.21A58.71,58.71,0,0,1,16.91,64.58ZM36.14,34.84H6.75c-1.65,0-2,.33-2,1.94V52.09c0,1.63.33,1.95,2,1.95H65.29c1.69,0,2-.32,2-2.06V36.9c0-1.77-.3-2.06-2.1-2.06ZM36,32.43c7.68,0,15.37,0,23.06,0,.83,0,1.07-.18,1.06-1,0-4.5-.05-9,0-13.5,0-.86-.28-1.08-1.05-1.15a42.07,42.07,0,0,1-7-1.35A52.11,52.11,0,0,1,36.65,8.5c-.39-.26-.67-.41-1.16-.08A51.71,51.71,0,0,1,12.9,16.79c-.78.09-.94.37-.94,1.11,0,4.47,0,8.93,0,13.39,0,1,.24,1.17,1.17,1.16C20.74,32.41,28.35,32.43,36,32.43ZM7.21,22.68c0,2.89.06,5.78,0,8.67,0,1,.38,1.12,1.22,1.11s1.25-.06,1.24-1.11c-.06-5,0-10,0-15,0-1.38.21-1.64,1.58-1.78A50.24,50.24,0,0,0,33.55,6.83c2.92-1.87,2-1.93,4.92,0a49.85,49.85,0,0,0,22.24,7.76c1.6.17,1.73.37,1.73,2,0,5,0,10,0,15,0,.9.39,1,1.07.9.53-.09,1.38.46,1.37-.8,0-5.93,0-11.86,0-17.79a1.29,1.29,0,0,0-1.43-1.47c-1.12,0-2.25-.1-3.36-.24A47,47,0,0,1,37.29,3,1.78,1.78,0,0,0,34.8,3a46.75,46.75,0,0,1-26,9.37c-1.27.07-1.57.38-1.57,1.65Q7.21,18.35,7.21,22.68ZM18.56,56.49a17.66,17.66,0,0,0,4.06,3.11A52.94,52.94,0,0,0,33.38,64c1.32.38,2.57.86,4,.42,4.76-1.45,9.45-3.07,13.64-5.84a9.24,9.24,0,0,0,2.35-2.07Zm-1.68,1.86c-.07,3.74-.66,2.83,2.3,4.75a47.79,47.79,0,0,0,11.87,5.2c2.63.82,5.16,1.59,8,.64,5-1.66,10-3.35,14.44-6.26,1.88-1.22,2.11-2,1.52-4.31a22.41,22.41,0,0,1-4.88,3.57,54.89,54.89,0,0,1-10.46,4.25c-1.41.41-2.83,1.22-4.35.81C28.73,65.24,22.27,63.09,16.88,58.35ZM3.35,66h9.7a1.09,1.09,0,0,0,1.08-.47c.28-.53-.26-.72-.52-1-2.4-2.43-4.87-4.79-7.21-7.27-.89-.95-1.81-.89-3-.72.69,1.14,1.23,2.21,1.93,3.16a2.33,2.33,0,0,1,0,3.06C4.62,63.76,4.07,64.81,3.35,66Zm65.37-9.58c-1.09.16-2-.26-2.7.51-2.56,2.62-5.17,5.2-7.75,7.79-.2.2-.55.37-.4.73a.88.88,0,0,0,.8.52l.22,0h9.8c-.8-1.35-1.47-2.54-2.21-3.69a1.77,1.77,0,0,1,0-2.16C67.22,59,67.89,57.84,68.72,56.44ZM14.41,61.78V57.06c0-.33,0-.59-.45-.58-1.58,0-3.16,0-4.81,0Zm43.23-.44,5-4.86c-1.34,0-2.83,0-4.33,0-.45,0-.66.1-.65.61C57.66,58.61,57.64,60.13,57.64,61.34Z"
-                    fill="#007ab7" /><text transform="translate(29.09 30.57)" font-size="24.19" fill="#007ab7"
+                    fill="#315FAA" /><text transform="translate(29.09 30.57)" font-size="24.19" fill="#315FAA"
                     font-family="Roboto-Bold, Roboto" font-weight="700">5</text><text transform="translate(9.07 50.9)"
-                    font-size="17.35" fill="#007ab7" font-family="Roboto-Bold, Roboto" font-weight="700">YEARS</text>
+                    font-size="17.35" fill="#315FAA" font-family="Roboto-Bold, Roboto" font-weight="700">YEARS</text>
                 </svg>
               </div>
               <div class="text-black-title our-services-content-title font-bold text-xl md:text-2xl">
@@ -492,9 +492,9 @@
                       <g id="Complete">
                         <g data-name="add" id="add-2">
                           <g>
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="12" x2="12" y1="19" y2="5" />
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="5" x2="19" y1="12" y2="12" />
                           </g>
                         </g>
@@ -506,7 +506,7 @@
                       <title />
                       <g id="Complete">
                         <g id="minus">
-                          <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                          <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="3" x1="4" x2="20" y1="12" y2="12" />
                         </g>
                       </g>
@@ -538,9 +538,9 @@
                       <g id="Complete">
                         <g data-name="add" id="add-2">
                           <g>
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="12" x2="12" y1="19" y2="5" />
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="5" x2="19" y1="12" y2="12" />
                           </g>
                         </g>
@@ -552,7 +552,7 @@
                       <title />
                       <g id="Complete">
                         <g id="minus">
-                          <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                          <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="3" x1="4" x2="20" y1="12" y2="12" />
                         </g>
                       </g>
@@ -584,9 +584,9 @@
                       <g id="Complete">
                         <g data-name="add" id="add-2">
                           <g>
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="12" x2="12" y1="19" y2="5" />
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="5" x2="19" y1="12" y2="12" />
                           </g>
                         </g>
@@ -598,7 +598,7 @@
                       <title />
                       <g id="Complete">
                         <g id="minus">
-                          <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                          <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="3" x1="4" x2="20" y1="12" y2="12" />
                         </g>
                       </g>
@@ -630,9 +630,9 @@
                       <g id="Complete">
                         <g data-name="add" id="add-2">
                           <g>
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="12" x2="12" y1="19" y2="5" />
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="5" x2="19" y1="12" y2="12" />
                           </g>
                         </g>
@@ -644,7 +644,7 @@
                       <title />
                       <g id="Complete">
                         <g id="minus">
-                          <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                          <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="3" x1="4" x2="20" y1="12" y2="12" />
                         </g>
                       </g>
@@ -676,9 +676,9 @@
                       <g id="Complete">
                         <g data-name="add" id="add-2">
                           <g>
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="12" x2="12" y1="19" y2="5" />
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="5" x2="19" y1="12" y2="12" />
                           </g>
                         </g>
@@ -690,7 +690,7 @@
                       <title />
                       <g id="Complete">
                         <g id="minus">
-                          <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                          <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="3" x1="4" x2="20" y1="12" y2="12" />
                         </g>
                       </g>
@@ -722,9 +722,9 @@
                       <g id="Complete">
                         <g data-name="add" id="add-2">
                           <g>
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="12" x2="12" y1="19" y2="5" />
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="5" x2="19" y1="12" y2="12" />
                           </g>
                         </g>
@@ -736,7 +736,7 @@
                       <title />
                       <g id="Complete">
                         <g id="minus">
-                          <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                          <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="3" x1="4" x2="20" y1="12" y2="12" />
                         </g>
                       </g>
@@ -768,9 +768,9 @@
                       <g id="Complete">
                         <g data-name="add" id="add-2">
                           <g>
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="12" x2="12" y1="19" y2="5" />
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="5" x2="19" y1="12" y2="12" />
                           </g>
                         </g>
@@ -782,7 +782,7 @@
                       <title />
                       <g id="Complete">
                         <g id="minus">
-                          <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                          <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="3" x1="4" x2="20" y1="12" y2="12" />
                         </g>
                       </g>
@@ -814,9 +814,9 @@
                       <g id="Complete">
                         <g data-name="add" id="add-2">
                           <g>
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="12" x2="12" y1="19" y2="5" />
-                            <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                            <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                               stroke-width="3" x1="5" x2="19" y1="12" y2="12" />
                           </g>
                         </g>
@@ -828,7 +828,7 @@
                       <title />
                       <g id="Complete">
                         <g id="minus">
-                          <line fill="none" stroke="#007AB7" stroke-linecap="round" stroke-linejoin="round"
+                          <line fill="none" stroke="#315FAA" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="3" x1="4" x2="20" y1="12" y2="12" />
                         </g>
                       </g>
@@ -881,8 +881,8 @@
         viewBox="0 0 298 199.028">
         <defs>
           <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#00aeef" />
-            <stop offset="1" stop-color="#007ab7" />
+            <stop offset="0" stop-color="#52A3D8" />
+            <stop offset="1" stop-color="#315FAA" />
           </linearGradient>
         </defs>
         <path id="Path_725" data-name="Path 725" d="M1232.5,2009.514V1810.486l298,100.056Z"

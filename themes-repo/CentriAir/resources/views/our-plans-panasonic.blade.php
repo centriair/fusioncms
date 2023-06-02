@@ -59,7 +59,7 @@
               <div class="triangle w-3"><svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 67.662 101.309">
                   <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                    transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                    transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
                 </svg>
               </div>
               <a href="{{ url('our-plans') }}">Our Plans</a>
@@ -70,7 +70,7 @@
         </div>
         <div onclick="expandMenu()" class="block md:hidden">
           <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-            fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="6" x2="21" y2="6"></line>
             <line x1="3" y1="18" x2="21" y2="18"></line>
@@ -86,7 +86,7 @@
             <div class="triangle w-3"><svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
               </svg>
             </div>
             <a href="{{ url('our-plans') }}">Our Plans</a>
@@ -195,7 +195,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -207,7 +207,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -219,7 +219,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -231,7 +231,7 @@
                     <!-- <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -243,7 +243,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -328,7 +328,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -340,7 +340,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -352,7 +352,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -364,7 +364,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -376,7 +376,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -388,7 +388,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -473,7 +473,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -485,7 +485,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -497,7 +497,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -509,7 +509,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -521,7 +521,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -533,7 +533,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -545,7 +545,7 @@
                     <li class="point-items flex gap-x-4 items-start">
                       <div class="w-1/12">
                         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                          viewBox="0 0 24 24" fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round"
+                          viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
                           stroke-linejoin="round">
                           <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
@@ -594,8 +594,8 @@
         viewBox="0 0 298 199.028">
         <defs>
           <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#00aeef" />
-            <stop offset="1" stop-color="#007ab7" />
+            <stop offset="0" stop-color="#52A3D8" />
+            <stop offset="1" stop-color="#315FAA" />
           </linearGradient>
         </defs>
         <path id="Path_725" data-name="Path 725" d="M1232.5,2009.514V1810.486l298,100.056Z"
@@ -614,7 +614,7 @@
               <div class="triangle w-3"><svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 67.662 101.309">
                   <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                    transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                    transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
                 </svg>
               </div>
               <h2>DOWNLOAD THE BROCHURES</h2>

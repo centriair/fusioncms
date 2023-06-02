@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="199.028" viewBox="0 0 298 199.028">
   <defs>
     <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#00aeef"/>
-      <stop offset="1" stop-color="#007ab7"/>
+      <stop offset="0" stop-color="#52A3D8"/>
+      <stop offset="1" stop-color="#315FAA"/>
     </linearGradient>
   </defs>
   <path id="Path_723" data-name="Path 723" d="M2376.5,1144.514V945.486l-298,100.056Z" transform="translate(-2078.5 -945.486)" fill="url(#linear-gradient)"/>

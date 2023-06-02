@@ -70,7 +70,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
               </svg>
             </div>
             <a href="{{ url('/') }}">Home</a>
@@ -83,7 +83,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
       </div>
       <div onclick="expandMenu()" class="block md:hidden">
         <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-          fill="none" stroke="#007AB7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <line x1="3" y1="12" x2="21" y2="12"></line>
           <line x1="3" y1="6" x2="21" y2="6"></line>
           <line x1="3" y1="18" x2="21" y2="18"></line>
@@ -97,7 +97,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
           <div class="triangle w-3">
             <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
               <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
             </svg>
 
           </div>
@@ -134,9 +134,9 @@ with: href="{{ url('theme/assets/css/style.css') }}"
                   <g id="Group_296" data-name="Group 296" transform="translate(-1368.5 -306.195)">
                     <path id="Path_822" data-name="Path 822"
                       d="M1374.511,317.558a.894.894,0,0,1,.667.311c.705.708,1.426,1.4,2.112,2.126.248.263.375.218.6-.014q3.287-3.312,6.593-6.606a.9.9,0,0,1,.825-.363.722.722,0,0,1,.592.523.745.745,0,0,1-.218.794q-1.152,1.155-2.306,2.308-2.548,2.549-5.1,5.1c-.514.513-.879.516-1.386.009q-1.423-1.421-2.843-2.844a.75.75,0,0,1-.194-.9A.719.719,0,0,1,1374.511,317.558Z"
-                      fill="#007ab7" />
+                      fill="#315FAA" />
                     <circle id="Ellipse_43" data-name="Ellipse 43" cx="10.365" cy="10.365" r="10.365"
-                      transform="translate(1369.5 307.195)" fill="none" stroke="#007ab7" stroke-miterlimit="10"
+                      transform="translate(1369.5 307.195)" fill="none" stroke="#315FAA" stroke-miterlimit="10"
                       stroke-width="2" />
                   </g>
                 </svg>
@@ -151,9 +151,9 @@ with: href="{{ url('theme/assets/css/style.css') }}"
                   <g id="Group_296" data-name="Group 296" transform="translate(-1368.5 -306.195)">
                     <path id="Path_822" data-name="Path 822"
                       d="M1374.511,317.558a.894.894,0,0,1,.667.311c.705.708,1.426,1.4,2.112,2.126.248.263.375.218.6-.014q3.287-3.312,6.593-6.606a.9.9,0,0,1,.825-.363.722.722,0,0,1,.592.523.745.745,0,0,1-.218.794q-1.152,1.155-2.306,2.308-2.548,2.549-5.1,5.1c-.514.513-.879.516-1.386.009q-1.423-1.421-2.843-2.844a.75.75,0,0,1-.194-.9A.719.719,0,0,1,1374.511,317.558Z"
-                      fill="#007ab7" />
+                      fill="#315FAA" />
                     <circle id="Ellipse_43" data-name="Ellipse 43" cx="10.365" cy="10.365" r="10.365"
-                      transform="translate(1369.5 307.195)" fill="none" stroke="#007ab7" stroke-miterlimit="10"
+                      transform="translate(1369.5 307.195)" fill="none" stroke="#315FAA" stroke-miterlimit="10"
                       stroke-width="2" />
                   </g>
                 </svg>
@@ -168,9 +168,9 @@ with: href="{{ url('theme/assets/css/style.css') }}"
                   <g id="Group_296" data-name="Group 296" transform="translate(-1368.5 -306.195)">
                     <path id="Path_822" data-name="Path 822"
                       d="M1374.511,317.558a.894.894,0,0,1,.667.311c.705.708,1.426,1.4,2.112,2.126.248.263.375.218.6-.014q3.287-3.312,6.593-6.606a.9.9,0,0,1,.825-.363.722.722,0,0,1,.592.523.745.745,0,0,1-.218.794q-1.152,1.155-2.306,2.308-2.548,2.549-5.1,5.1c-.514.513-.879.516-1.386.009q-1.423-1.421-2.843-2.844a.75.75,0,0,1-.194-.9A.719.719,0,0,1,1374.511,317.558Z"
-                      fill="#007ab7" />
+                      fill="#315FAA" />
                     <circle id="Ellipse_43" data-name="Ellipse 43" cx="10.365" cy="10.365" r="10.365"
-                      transform="translate(1369.5 307.195)" fill="none" stroke="#007ab7" stroke-miterlimit="10"
+                      transform="translate(1369.5 307.195)" fill="none" stroke="#315FAA" stroke-miterlimit="10"
                       stroke-width="2" />
                   </g>
                 </svg>
@@ -221,7 +221,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
               </svg>
             </div>
             <h2>About Us</h2>
@@ -256,8 +256,8 @@ with: href="{{ url('theme/assets/css/style.css') }}"
         viewBox="0 0 298 199.028">
         <defs>
           <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#00aeef" />
-            <stop offset="1" stop-color="#007ab7" />
+            <stop offset="0" stop-color="#52A3D8" />
+            <stop offset="1" stop-color="#315FAA" />
           </linearGradient>
         </defs>
         <path id="Path_723" data-name="Path 723" d="M2376.5,1144.514V945.486l-298,100.056Z"
@@ -294,8 +294,8 @@ with: href="{{ url('theme/assets/css/style.css') }}"
         viewBox="0 0 298 199.028">
         <defs>
           <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#00aeef" />
-            <stop offset="1" stop-color="#007ab7" />
+            <stop offset="0" stop-color="#52A3D8" />
+            <stop offset="1" stop-color="#315FAA" />
           </linearGradient>
         </defs>
         <path id="Path_725" data-name="Path 725" d="M1232.5,2009.514V1810.486l298,100.056Z"
@@ -313,7 +313,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
               </svg>
             </div>
             <h2>Our Plans</h2>
@@ -354,7 +354,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
               </svg>
             </div>
             <h2>Other Services Provided</h2>
@@ -412,8 +412,8 @@ with: href="{{ url('theme/assets/css/style.css') }}"
         viewBox="0 0 298 199.028">
         <defs>
           <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#00aeef" />
-            <stop offset="1" stop-color="#007ab7" />
+            <stop offset="0" stop-color="#52A3D8" />
+            <stop offset="1" stop-color="#315FAA" />
           </linearGradient>
         </defs>
         <path id="Path_723" data-name="Path 723" d="M2376.5,1144.514V945.486l-298,100.056Z"
@@ -442,7 +442,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#00aeef" />
+                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
               </svg>
 
             </div>
@@ -457,7 +457,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <a href="#" class="w-12 block">
               <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
                 <title>CentriAir_MU</title>
-                <circle cx="17" cy="17" r="17" fill="#007ab7" />
+                <circle cx="17" cy="17" r="17" fill="#315FAA" />
                 <path
                   d="M14.73,11.81v2.43h-1.9v3.08h1.9v9.06h3.63v-9.1h2.53l.28-3H18.36V12.5c0-.72.14-1,.84-1h2V8.34H18.65C15.94,8.34,14.73,9.53,14.73,11.81Z"
                   fill="#fff" />
@@ -467,7 +467,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <a href="#" class="w-12 block">
               <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
                 <title>CentriAir_MU</title>
-                <circle cx="17" cy="17" r="17" fill="#007ab7" />
+                <circle cx="17" cy="17" r="17" fill="#315FAA" />
                 <path
                   d="M18.16,8a8.8,8.8,0,0,0-8.82,8.38c0,.13,0,.26,0,.39a8.74,8.74,0,0,0,1.26,4.53L9,26l4.89-1.55a8.94,8.94,0,0,0,4.27,1.09A8.8,8.8,0,0,0,27,16.77v-.23A8.8,8.8,0,0,0,18.16,8Zm0,16.14a7.39,7.39,0,0,1-4.08-1.22l-2.86.91.93-2.74a7.31,7.31,0,0,1-1.42-4.32c0-.24,0-.48,0-.72a7.43,7.43,0,0,1,14.8.14,5.52,5.52,0,0,1,0,.58A7.41,7.41,0,0,1,18.16,24.14Z"
                   fill="#fff" />
@@ -501,11 +501,11 @@ with: href="{{ url('theme/assets/css/style.css') }}"
                   <title>CentriAir_MU</title>
                   <path
                     d="M20,26.16H13.18c-1.63,0-2.23-.6-2.23-2.21V16c0-1.48.62-2.12,2.09-2.12H27c1.47,0,2.08.64,2.09,2.13V24c0,1.48-.62,2.12-2.09,2.12C24.62,26.17,22.29,26.16,20,26.16ZM20,25h7c.82,0,1-.14,1-.93V15.9c0-.79-.14-.93-1-.93H13c-.83,0-1,.14-1,1V24c0,.88.12,1,1,1Z"
-                    fill="#007ab7" fill-rule="evenodd" />
+                    fill="#315FAA" fill-rule="evenodd" />
                   <path
                     d="M20,21.4l5.35-4.71.37-.33c.3-.26.68-.41.9,0a.85.85,0,0,1-.15.82c-2,1.79-4,3.54-6,5.3a.66.66,0,0,1-1,0c-2-1.76-4-3.5-6-5.29a.89.89,0,0,1-.16-.82c.26-.43.64-.23,1,0l5,4.43Z"
-                    fill="#007ab7" fill-rule="evenodd" />
-                  <circle cx="20" cy="20" r="19" fill="none" stroke="#007ab7" stroke-miterlimit="10" stroke-width="2" />
+                    fill="#315FAA" fill-rule="evenodd" />
+                  <circle cx="20" cy="20" r="19" fill="none" stroke="#315FAA" stroke-miterlimit="10" stroke-width="2" />
                 </svg>
               </div>
               <div class="company-details">
@@ -519,8 +519,8 @@ with: href="{{ url('theme/assets/css/style.css') }}"
                   <title>CentriAir_MU</title>
                   <path
                     d="M23.79,27.79A7,7,0,0,1,20.54,27a15.38,15.38,0,0,1-8-8.66,5.37,5.37,0,0,1-.28-3.07,3.61,3.61,0,0,1,.9-1.69q.41-.44.84-.84a1.77,1.77,0,0,1,2.49,0q.87.84,1.71,1.71a1.76,1.76,0,0,1,0,2.51,8.22,8.22,0,0,1-.66.66c-.16.14-.19.25,0,.45A15.91,15.91,0,0,0,22,22.49c.17.12.29.16.45,0a9.51,9.51,0,0,1,.71-.71,1.76,1.76,0,0,1,2.43,0c.61.58,1.2,1.18,1.79,1.8a1.63,1.63,0,0,1,.23,2.05A4.83,4.83,0,0,1,25,27.66,4.27,4.27,0,0,1,23.79,27.79Zm.12-1.19.43-.05a3.5,3.5,0,0,0,2-1.34.59.59,0,0,0,0-.94l-1.55-1.55a.6.6,0,0,0-1,0c-.35.34-.69.69-1,1a.63.63,0,0,1-.95.11,16.54,16.54,0,0,1-5.7-5.7.63.63,0,0,1,.1-.93c.35-.35.71-.69,1.06-1a.6.6,0,0,0,0-.94c-.52-.54-1-1.07-1.58-1.59a.6.6,0,0,0-1,0l-.61.59a2.57,2.57,0,0,0-.78,2.06,5.33,5.33,0,0,0,.37,1.77,14.37,14.37,0,0,0,7.79,8A6.4,6.4,0,0,0,23.91,26.6Z"
-                    fill="#007ab7" />
-                  <circle cx="20" cy="20" r="19" fill="none" stroke="#007ab7" stroke-miterlimit="10" stroke-width="2" />
+                    fill="#315FAA" />
+                  <circle cx="20" cy="20" r="19" fill="none" stroke="#315FAA" stroke-miterlimit="10" stroke-width="2" />
                 </svg>
               </div>
               <div class="company-details">
@@ -534,11 +534,11 @@ with: href="{{ url('theme/assets/css/style.css') }}"
                   <title>CentriAir_MU</title>
                   <path
                     d="M28.59,16.13a13,13,0,0,1-1.46,5.7,47,47,0,0,1-4.21,6.75c-.74,1-1.48,2.09-2.21,3.14-.45.65-1,.65-1.41,0-1.68-2.45-3.39-4.87-5-7.36a19.47,19.47,0,0,1-2.56-5.62,8.6,8.6,0,1,1,16.73-3.93C28.54,15.32,28.56,15.85,28.59,16.13ZM20,30.23c.88-1.24,1.72-2.41,2.54-3.58a35.37,35.37,0,0,0,3.54-5.95,9.92,9.92,0,0,0,1-5.08A7.13,7.13,0,0,0,16.88,10a7,7,0,0,0-4,6.5,8.57,8.57,0,0,0,1,3.9,47.12,47.12,0,0,0,2.35,4.3C17.35,26.53,18.67,28.33,20,30.23Z"
-                    fill="#007ab7" />
+                    fill="#315FAA" />
                   <path
                     d="M24.28,16.38A4.28,4.28,0,1,1,20,12.07,4.29,4.29,0,0,1,24.28,16.38Zm-7.13-.06a2.86,2.86,0,1,0,2.9-2.81A2.86,2.86,0,0,0,17.15,16.32Z"
-                    fill="#007ab7" />
-                  <circle cx="20" cy="20" r="19" fill="none" stroke="#007ab7" stroke-miterlimit="10" stroke-width="2" />
+                    fill="#315FAA" />
+                  <circle cx="20" cy="20" r="19" fill="none" stroke="#315FAA" stroke-miterlimit="10" stroke-width="2" />
                 </svg>
               </div>
               <div class="company-details">
@@ -566,8 +566,8 @@ with: href="{{ url('theme/assets/css/style.css') }}"
         viewBox="0 0 298 199.028">
         <defs>
           <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#00aeef" />
-            <stop offset="1" stop-color="#007ab7" />
+            <stop offset="0" stop-color="#52A3D8" />
+            <stop offset="1" stop-color="#315FAA" />
           </linearGradient>
         </defs>
         <path id="Path_725" data-name="Path 725" d="M1232.5,2009.514V1810.486l298,100.056Z"

@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        'blue-primary': '#007AB7',
+        'blue-primary': '#315FAA',
         'light-grey': '#808080',
         'black': '#00161F',
         'white-grey': '#FAFAFA',
@@ -18,7 +18,7 @@ module.exports = {
         'divider-grey': '#BFBFBF',
         'card-outline-grey': '#F3F4F4',
         'hover': '#CCE4F1',
-        'light-blue-primary': '#00AEEF',
+        'light-blue-primary': '#52A3D8',
         'table-odd': '#F2F2F2',
         'black-title': '#00161F',
         'black-primary': '#404040'
