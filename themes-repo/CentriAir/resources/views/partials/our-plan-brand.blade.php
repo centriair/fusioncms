@@ -75,12 +75,12 @@
     <div class="steps-button-container flex justify-center pt-4 md:pt-8 mb-3">
         @if(!$showAsBrand)
             <a href="{{ $brand->url }}"
-                class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+                class="btn-primary button-primary">
                 <p>Get Started</p>
             </a>
         @elseif($settings->registration_form)
             <a href="{{ $settings->registration_form }}"
-                class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+                class="btn-primary button-primary">
                 <p>Choose This!</p>
             </a>
         @endif

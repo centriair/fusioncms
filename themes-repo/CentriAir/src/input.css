@@ -83,6 +83,11 @@
     }
   }
 
+  .btn-primary {
+    /* @apply bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary */
+    @apply bg-blue-primary text-white px-6 py-1 rounded-xl shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary
+  }
+
   .our-services-additional-content h2 {
     @apply font-bold text-xl md:text-2xl mb-6 uppercase
   }

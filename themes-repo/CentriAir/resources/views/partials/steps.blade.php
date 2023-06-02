@@ -44,7 +44,7 @@
       </div>
       <div class="steps-button-container flex justify-center">
         <a href="{{ url('our-plans') }}"
-          class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+          class="btn-primary button-primary">
           <p>Our Plans</p>
         </a>
       </div>

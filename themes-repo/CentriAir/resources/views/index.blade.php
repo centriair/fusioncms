@@ -112,94 +112,12 @@ with: href="{{ url('theme/assets/css/style.css') }}"
   </header>
   <section class="landing-section bg-landing-bg bg-cover">
     <div
-      class="w-full max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex-col-reverse flex flex-col md:flex-row items-center justify-center py-8 md:py-0">
-      <div class="left-container fade-in-element right pt-8 md:w-2/5 flex justify-center md:justify-normal">
-        <div>
-          <div class="header pb-4">
-            <div class="relative pb-4 lg:pb-6">
-              <h1>
-                <span class="text-3xl lg:text-[43px] font-bold text-blue-primary uppercase">
-                  RENT COOL, 
-                </span><br/>
-                <span class="text-5xl lg:text-[45px] font-light absolute left-[30px] md:left-[55px] top-[20px] lg:top-[30px] font-[mathilde]">
-                  with peace of mind!
-                </span>
-              </h1>
-            </div>
-          </div>
-          <div class="header-list">
-            <div class="header-list-item flex gap-x-2 items-start">
-              <div class="header-list-check w-6 pt-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22.729" height="22.729" viewBox="0 0 22.729 22.729">
-                  <g id="Group_296" data-name="Group 296" transform="translate(-1368.5 -306.195)">
-                    <path id="Path_822" data-name="Path 822"
-                      d="M1374.511,317.558a.894.894,0,0,1,.667.311c.705.708,1.426,1.4,2.112,2.126.248.263.375.218.6-.014q3.287-3.312,6.593-6.606a.9.9,0,0,1,.825-.363.722.722,0,0,1,.592.523.745.745,0,0,1-.218.794q-1.152,1.155-2.306,2.308-2.548,2.549-5.1,5.1c-.514.513-.879.516-1.386.009q-1.423-1.421-2.843-2.844a.75.75,0,0,1-.194-.9A.719.719,0,0,1,1374.511,317.558Z"
-                      fill="#315FAA" />
-                    <circle id="Ellipse_43" data-name="Ellipse 43" cx="10.365" cy="10.365" r="10.365"
-                      transform="translate(1369.5 307.195)" fill="none" stroke="#315FAA" stroke-miterlimit="10"
-                      stroke-width="2" />
-                  </g>
-                </svg>
-              </div>
-              <div class="text-black-title header-list-name font-bold text-xl">
-                <h3>Hassle-free air conditioner rental service</h3>
-              </div>
-            </div>
-            <div class="header-list-item flex gap-x-2 items-start">
-              <div class="header-list-check w-6 pt-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22.729" height="22.729" viewBox="0 0 22.729 22.729">
-                  <g id="Group_296" data-name="Group 296" transform="translate(-1368.5 -306.195)">
-                    <path id="Path_822" data-name="Path 822"
-                      d="M1374.511,317.558a.894.894,0,0,1,.667.311c.705.708,1.426,1.4,2.112,2.126.248.263.375.218.6-.014q3.287-3.312,6.593-6.606a.9.9,0,0,1,.825-.363.722.722,0,0,1,.592.523.745.745,0,0,1-.218.794q-1.152,1.155-2.306,2.308-2.548,2.549-5.1,5.1c-.514.513-.879.516-1.386.009q-1.423-1.421-2.843-2.844a.75.75,0,0,1-.194-.9A.719.719,0,0,1,1374.511,317.558Z"
-                      fill="#315FAA" />
-                    <circle id="Ellipse_43" data-name="Ellipse 43" cx="10.365" cy="10.365" r="10.365"
-                      transform="translate(1369.5 307.195)" fill="none" stroke="#315FAA" stroke-miterlimit="10"
-                      stroke-width="2" />
-                  </g>
-                </svg>
-              </div>
-              <div class="text-black-title header-list-name font-bold text-xl">
-                <h2>Wide selection of preferred brands</h2>
-              </div>
-            </div>
-            <div class="header-list-item flex gap-x-2 items-start">
-              <div class="header-list-check w-6 pt-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22.729" height="22.729" viewBox="0 0 22.729 22.729">
-                  <g id="Group_296" data-name="Group 296" transform="translate(-1368.5 -306.195)">
-                    <path id="Path_822" data-name="Path 822"
-                      d="M1374.511,317.558a.894.894,0,0,1,.667.311c.705.708,1.426,1.4,2.112,2.126.248.263.375.218.6-.014q3.287-3.312,6.593-6.606a.9.9,0,0,1,.825-.363.722.722,0,0,1,.592.523.745.745,0,0,1-.218.794q-1.152,1.155-2.306,2.308-2.548,2.549-5.1,5.1c-.514.513-.879.516-1.386.009q-1.423-1.421-2.843-2.844a.75.75,0,0,1-.194-.9A.719.719,0,0,1,1374.511,317.558Z"
-                      fill="#315FAA" />
-                    <circle id="Ellipse_43" data-name="Ellipse 43" cx="10.365" cy="10.365" r="10.365"
-                      transform="translate(1369.5 307.195)" fill="none" stroke="#315FAA" stroke-miterlimit="10"
-                      stroke-width="2" />
-                  </g>
-                </svg>
-              </div>
-              <div class="text-black-title header-list-name font-bold text-xl">
-                <h2>Comprehensive 5-year warranty that covers everything</h2>
-              </div>
-            </div>
-          </div>
-          <div class="h-0.5 bg-blue-primary w-1/3 md:w-20 my-4"></div>
-          <div class="header-tag-line text-[14px] leading-[170%] font-light pb-4">
-            <h3>Experience the ultimate comfort and convenience with CentriAir. Rent cool today and stay worry-free!</h3>
-          </div>
-          <div class="header-button-container flex gap-x-2 md:gap-x-6">
-            <a href="{{ url('our-plans') }}"
-              class="button-primary bg-blue-primary text-white px-4 sm:px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
-              <p>Our Plans</p>
-            </a>
-            <a href="{{ url('our-services') }}"
-              class="button-secondary bg-white text-blue-primary px-4 sm:px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
-              <p>Our Services</p>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="right-container fade-in-element left flex-col md:w-3/5 px-6 md:px-0">
-        <div class="flex justify-center border-b-2 md:border-b-0 border-divider-grey px-6 md:px-0">
-          <img src="{{ url('theme/assets/photos/landing-man.png') }}">
-        </div>
+      class="w-full relative mx-auto text-base flex-col-reverse flex flex-col md:flex-row items-center justify-center">
+      <img class="hidden sm:block" src="{{ $settings->banner->first()->url }}" />
+      <img class="sm:hidden" src="{{ $settings->banner_mobile->first()->url }}" />
+
+      <div class="absolute flex sm:top-[69%] sm:left-[18.5%] top-[82%]">
+        <a class="h-full w-full btn-primary button-primary" href="{{ url('our-plans') }}">Learn More</a>
       </div>
     </div>
   </section>
@@ -244,7 +162,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
           </div>
           <div class="inline-flex">
             <a href="{{ url('about-us') }}"
-              class=" bg-blue-primary h-full w-full text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+              class=" h-full w-full btn-primary button-primary">
               <p>Read More</p>
             </a>
           </div>
@@ -283,7 +201,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
         </div>
         <div class="fade-in-element down quality-services-button-container flex justify-center">
           <a href="#"
-            class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+            class="btn-primary button-primary">
             <p>Ask the Expert</p>
           </a>
         </div>
@@ -339,7 +257,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
       </div>
       <div class="button-container flex justify-center">
         <a href="{{ url('our-plans') }}"
-          class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+          class="btn-primary button-primary">
           <p>Book Now!</p>
         </a>
       </div>
@@ -402,7 +320,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
       </div>
       <div class="fade-in-element up our-services-button-container flex justify-center">
         <a href="{{ url('our-services') }}"
-          class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+          class="btn-primary button-primary">
           <p>Read More</p>
         </a>
       </div>

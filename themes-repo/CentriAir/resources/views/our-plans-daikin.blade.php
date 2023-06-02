@@ -259,7 +259,7 @@
             </div>
             <div class="steps-button-container flex justify-center pt-4 md:pt-8 mb-3">
               <a href="{{ url('our-plans-daikin') }}"
-                class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+                class="btn-primary button-primary">
                 <p>Choose This!</p>
               </a>
             </div>
@@ -392,7 +392,7 @@
           
           <div class="steps-button-container flex justify-center pt-4 md:pt-8 mb-3">
             <a href="{{ url('our-plans-midea') }}"
-              class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+              class="btn-primary button-primary">
               <p>Choose This!</p>
             </a>
           </div>
@@ -524,7 +524,7 @@
           
           <div class="steps-button-container flex justify-center pt-4 md:pt-8 mb-3">
             <a href="{{ url('our-plans-panasonic') }}"
-              class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+              class="btn-primary button-primary">
               <p>Choose This!</p>
             </a>
           </div>
@@ -545,7 +545,7 @@
         </div>
         <div class="fade-in-element down quality-services-button-container flex justify-center">
           <a href="#"
-            class="button-primary bg-blue-primary text-white px-6 py-2 shadow-custom hover:bg-hover hover:text-blue-primary border-2 border-transparent hover:border-blue-primary">
+            class="btn-primary button-primary">
             <p>Ask the Expert</p>
           </a>
         </div>
