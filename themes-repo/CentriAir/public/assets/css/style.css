@@ -693,6 +693,8 @@ body {
   padding-right: 1.5rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-shadow: 3px 4px 10px rgba(0,0,0,0.3);
@@ -818,6 +820,10 @@ body {
 
 .left-0 {
   left: 0px;
+}
+
+.left-\[14\%\] {
+  left: 14%;
 }
 
 .right-0 {
@@ -1558,6 +1564,22 @@ body {
     top: 69%;
   }
 
+  .sm\:top-\[\] {
+    top: ;
+  }
+
+  .sm\:top-\[67\%\] {
+    top: 67%;
+  }
+
+  .sm\:left-\[\] {
+    left: ;
+  }
+
+  .sm\:left-\[9\%\] {
+    left: 9%;
+  }
+
   .sm\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -1638,16 +1660,16 @@ body {
     padding-bottom: 0px;
   }
 
+  .sm\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
   .sm\:pl-4 {
     padding-left: 1rem;
   }
 
   .sm\:pr-4 {
     padding-right: 1rem;
-  }
-
-  .sm\:pb-2 {
-    padding-bottom: 0.5rem;
   }
 
   .sm\:text-left {
@@ -1667,6 +1689,14 @@ body {
 
   .md\:relative {
     position: relative;
+  }
+
+  .md\:left-\[18\.5\%\] {
+    left: 18.5%;
+  }
+
+  .md\:top-\[69\%\] {
+    top: 69%;
   }
 
   .md\:my-8 {
@@ -1820,6 +1850,10 @@ body {
     padding-bottom: 0px;
   }
 
+  .md\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
   .md\:pb-48 {
     padding-bottom: 12rem;
   }
@@ -1842,10 +1876,6 @@ body {
 
   .md\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .md\:pb-4 {
-    padding-bottom: 1rem;
   }
 
   .md\:text-2xl {
@@ -1872,6 +1902,11 @@ body {
     font-size: 27px;
   }
 
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1880,11 +1915,6 @@ body {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 }
 

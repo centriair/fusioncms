@@ -113,10 +113,11 @@ with: href="{{ url('theme/assets/css/style.css') }}"
   <section class="landing-section bg-landing-bg bg-cover">
     <div
       class="w-full relative mx-auto text-base flex-col-reverse flex flex-col md:flex-row items-center justify-center">
-      <img class="hidden sm:block" src="{{ $settings->banner->first()->url }}" />
+      <img class="hidden md:block" src="{{ $settings->banner->first()->url }}" />
       <img class="sm:hidden" src="{{ $settings->banner_mobile->first()->url }}" />
+      <img class="hidden sm:block md:hidden" src="{{ optional($settings->banner_tablet)->isNotEmpty() ? $settings->banner_tablet->first()->url : url('storage/files/e177954211ce7-banner-05.png') }}" />
 
-      <div class="absolute flex sm:top-[69%] sm:left-[18.5%] top-[82%]">
+      <div class="absolute flex md:top-[69%] md:left-[18.5%] sm:top-[67%] sm:left-[9%] left-[14%] top-[82%]">
         <a class="h-full w-full btn-primary button-primary" href="{{ url('our-plans') }}">Learn More</a>
       </div>
     </div>
