@@ -14,34 +14,8 @@
 
 <body>
   <header>
-    <div class="pre-nav-bar bg-blue-primary">
-      <div class="w-full md:max-w-screen-lg mx-auto px-4 sm:px-8 text-base flex items-center justify-center gap-x-2 py-2">
-        <div>
-          <a href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="6.48" height="14.039" viewBox="0 0 6.48 14.039">
-              <path id="Path_728" data-name="Path 728"
-                d="M1787.308,15.809V17.7h-1.47v2.4h1.47v7.05h2.827V20.069h1.973l.21-2.371h-2.183V16.349c0-.559.112-.78.653-.78h1.53v-2.46h-1.958C1788.257,13.109,1787.308,14.035,1787.308,15.809Z"
-                transform="translate(-1785.838 -13.109)" fill="#fff" />
-            </svg>
-          </a>
-        </div>
-        <div class="separator text-white">|</div>
-        <div>
-          <a href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15.996" height="16" viewBox="0 0 15.996 16">
-              <g id="Group_199" data-name="Group 199" transform="translate(-1816.318 -12.128)">
-                <path id="Path_729" data-name="Path 729"
-                  d="M1824.461,12.128a7.829,7.829,0,0,0-7.845,7.453c0,.114-.008.228-.008.342a7.733,7.733,0,0,0,1.125,4.025l-1.415,4.18,4.349-1.382a7.862,7.862,0,0,0,11.647-6.823c0-.067,0-.133,0-.2A7.823,7.823,0,0,0,1824.461,12.128Zm0,14.346a6.571,6.571,0,0,1-3.632-1.085l-2.537.809.824-2.434a6.482,6.482,0,0,1-1.258-3.841,6.093,6.093,0,0,1,.033-.636,6.606,6.606,0,0,1,13.151.124c.015.17.022.339.022.512A6.585,6.585,0,0,1,1824.461,26.474Z"
-                  fill="#fff" />
-                <path id="Path_730" data-name="Path 730"
-                  d="M1828.061,21.5c-.2-.1-1.14-.559-1.317-.621s-.305-.1-.434.095-.5.622-.61.747-.224.143-.419.047a5.2,5.2,0,0,1-1.548-.948,5.765,5.765,0,0,1-1.07-1.32c-.11-.191-.011-.294.085-.39s.191-.224.29-.334c.026-.033.048-.063.07-.092a2.336,2.336,0,0,0,.122-.228.346.346,0,0,0-.015-.335c-.048-.1-.434-1.036-.6-1.419s-.319-.316-.434-.316-.239-.018-.367-.018a.709.709,0,0,0-.515.239,2.139,2.139,0,0,0-.673,1.595,2.417,2.417,0,0,0,.1.651,4.336,4.336,0,0,0,.687,1.324,7.905,7.905,0,0,0,3.287,2.885c1.959.762,1.959.508,2.312.475a1.924,1.924,0,0,0,1.3-.908,1.578,1.578,0,0,0,.114-.908C1828.38,21.639,1828.251,21.592,1828.061,21.5Z"
-                  fill="#fff" />
-              </g>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
+    @include('partials.pre-nav')
+    
     <div class="nav-bar">
       <div
         class="w-full max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex items-center justify-between gap-x-2 py-4 md:py-8">
@@ -136,40 +110,9 @@
       </div>
     </div>
   </section>
-  <section class="quality-services-section bg-quality-services-bg bg-cover bg-right relative">
-    <div
-      class="w-full max-w-screen-sm md:max-w-screen-lg bg-white-grey/50 sm:bg-transparent mx-auto px-8 text-base flex flex-col max-w-screen-sm md:max-w-screen-lg mx-auto px-8 text-base flex flex-col py-8 md:py-16 relative z-50">
-      <div class="quality-services-container text-center">
-        <div class="fade-in-element down text-blue-primary font-bold text-3xl md:text-4xl py-1">
-          <h2>We Provide Quality Services</h2>
-        </div>
-        <div class="h-0.5 bg-blue-primary w-20 my-4 mx-auto"></div>
-        <div class="fade-in-element down quality-services-tag-line text-md md:text-lg font-light pb-4">
-          <p>Any question? Just WhatsApp us!</p>
-        </div>
-        <div class="fade-in-element down quality-services-button-container flex justify-center">
-          <a href="#"
-            class="btn-primary button-primary">
-            <p>Ask the Expert</p>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="hidden lg:block absolute -top-[99px] left-0">
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="199.028"
-        viewBox="0 0 298 199.028">
-        <defs>
-          <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#52A3D8" />
-            <stop offset="1" stop-color="#315FAA" />
-          </linearGradient>
-        </defs>
-        <path id="Path_725" data-name="Path 725" d="M1232.5,2009.514V1810.486l298,100.056Z"
-          transform="translate(-1232.5 -1810.486)" fill="url(#linear-gradient)" />
-      </svg>
   
-    </div>
-  </section>
+  @include('partials.ask-the-expert')
+
   <section class="brochure-section">
     <div class="brochure-points relative">
       <div
