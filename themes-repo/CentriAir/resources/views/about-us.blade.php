@@ -32,7 +32,7 @@
               <div class="triangle w-3"><svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 67.662 101.309">
                   <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                    transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                    transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
                 </svg>
               </div>
               <a href="{{ url('about-us') }}">About Us</a>
@@ -59,7 +59,7 @@
             <div class="triangle w-3"><svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                  transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
               </svg>
             </div>
             <a href="{{ url('about-us') }}">About Us</a>
@@ -90,7 +90,7 @@
           <h1>About Us</h1>
         </div>
         <div class="about-us-sub-header text-blue-primary text-lg">
-          <h2>Rent Cool, With Peace Of Mind!</h2>
+          <h2>Rent The Cool With Peace Of Mind</h2>
         </div>
       </div>
       <div class="divider h-0.5 bg-medium-grey w-2/3 max-w-screen-xs md:max-w-screen-md mx-auto my-12"></div>
@@ -104,7 +104,7 @@
         </div>
         <div class="fade-in-element right right-container md:w-3/5">
           <div class="text-black-title about-us-mission font-bold text-xl md:text-2xl">
-            <h2>Your trusted partner for <span class="about-us-focus text-blue-primary">air conditioner rentals.</span></h2>
+            <h2>Your trusted partner for <span class="about-us-focus text-light-blue-primary">air conditioner rentals.</span></h2>
           </div>
           <div class="divider h-0.5 bg-blue-primary w-20 my-4 mx-auto sm:mx-0"></div>
           <div class="about-us-description">
@@ -116,7 +116,7 @@
               <div class="flex gap-x-4 md:gap-x-8">
                 <ul class="brand-points w-1/2">
                   @foreach($page->green_list as $item)
-                  <li class="point-items flex gap-x-2 md:gap-x-4 items-start">
+                  <li class="point-items flex gap-x-2 md:gap-x-4 items-start min-h-[27px]">
                     <div class="pt-1">
                       <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24" fill="none" stroke="#315FAA" stroke-width="2.5" stroke-linecap="round"
@@ -132,7 +132,7 @@
                 </ul>
                 <ul class="brand-points w-1/2">
                   @foreach($page->red_list as $item)
-                  <li class="point-items flex gap-x-2 md:gap-x-4 items-start">
+                  <li class="point-items flex gap-x-2 md:gap-x-4 items-start min-h-[27px]">
                     <div class="pt-1">
                       <svg class="h-full w-full" width="20" height="20" stroke-width="2.5" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 13.86 13.86"><defs><clipPath id="clip-path"><rect x="-991" y="-389" width="1144" height="315" fill="none"/></clipPath></defs><title>CentriAir2_text</title><path d="M0,12.9A1.18,1.18,0,0,1,.42,12L5.24,7.2c.21-.21.25-.31,0-.54C3.62,5.05,2,3.42.38,1.8A1,1,0,0,1,.07.64,1,1,0,0,1,1.76.34c1,.94,1.91,1.9,2.87,2.86.69.69,1.4,1.38,2.08,2.09.19.2.28.16.45,0Q9.6,2.82,12.07.37a1,1,0,0,1,1.71.26,1,1,0,0,1-.29,1.16L9.38,5.91c-.27.26-.52.54-.8.79s-.17.29,0,.46l4.89,4.89a1,1,0,0,1,.31,1.16,1,1,0,0,1-1.69.31L9.23,10.65C8.55,10,7.86,9.3,7.19,8.6c-.19-.2-.3-.22-.51,0-1.61,1.64-3.24,3.25-4.86,4.87a1,1,0,0,1-1.28.28A1,1,0,0,1,0,12.9Z" fill="#f01849"/></svg>
                     </div>

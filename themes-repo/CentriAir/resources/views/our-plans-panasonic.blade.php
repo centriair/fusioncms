@@ -33,7 +33,7 @@
               <div class="triangle w-3"><svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 67.662 101.309">
                   <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                    transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                    transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
                 </svg>
               </div>
               <a href="{{ url('our-plans') }}">Our Plans</a>
@@ -60,7 +60,7 @@
             <div class="triangle w-3"><svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                  transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
               </svg>
             </div>
             <a href="{{ url('our-plans') }}">Our Plans</a>
@@ -557,7 +557,7 @@
               <div class="triangle w-3"><svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 67.662 101.309">
                   <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                    transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                    transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
                 </svg>
               </div>
               <h2>DOWNLOAD THE BROCHURES</h2>

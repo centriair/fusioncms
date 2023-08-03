@@ -7,7 +7,7 @@
     // Mobile version
     if (isset($settings->banner_mobile) && $settings->banner_mobile->isNotEmpty()) {
         $mobileBanner = $settings->banner_mobile->first()->url;
-        $mobilePosition = 'left-[14%] top-[82%]';
+        $mobilePosition = 'top-[82%]';
     } else if (isset($settings->banner_tablet) && $settings->banner_tablet->isNotEmpty()) {
         $mobileBanner = $settings->banner_tablet->first()->url;
         $mobilePosition = 'top-[67%] left-[9%]';
@@ -22,7 +22,7 @@
         $tabletPosition = 'sm:top-[67%] sm:left-[9%]';
     } else if (isset($settings->banner_mobile) && $settings->banner_mobile->isNotEmpty()) {
         $tabletBanner = $settings->banner_mobile->first()->url;
-        $tabletPosition = 'sm:left-[14%] sm:top-[82%]';
+        $tabletPosition = 'sm:top-[82%]';
     } else {
         $tabletBanner = $settings->banner->first()->url;
         $tabletPosition = 'top-[69%] left-[18.5%]';

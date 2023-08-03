@@ -44,7 +44,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                  transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
               </svg>
             </div>
             <a href="{{ url('/') }}">Home</a>
@@ -71,7 +71,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
           <div class="triangle w-3">
             <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
               <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
             </svg>
 
           </div>
@@ -105,7 +105,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                  transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
               </svg>
             </div>
             <h2>About Us</h2>
@@ -116,13 +116,13 @@ with: href="{{ url('theme/assets/css/style.css') }}"
           <!-- <div class="about-us-headline text-md md:text-md md:text-lg">
             <h2>We also provide the best</h2>
           </div> -->
-          <div class="about-us-headline text-blue-primary font-bold text-3xl">
+          <div class="about-us-headline text-light-blue-primary font-bold text-3xl">
             <h2>cooling needs!</h2>
           </div>
           <div class="h-0.5 bg-blue-primary w-20 my-4"></div>
           <div class="reset about-us-tag-line font-light pb-4 md:pb-4 sm:pb-2 text-[14px] leading-[170%]">
             <p>Say goodbye to buying and maintaining air conditioners with short warranties.</p>
-            <p>At CentriAir, you can now experience a worry-free rental option for a cool and
+            <p>At <strong>CentriAir</strong>, you can now experience a worry-free rental option for a cool and
               comfortable environment, up to 5 years warranty.</p>
             <p>Stay cool without the commitment – RENT an air conditioner today!</p>
           </div>
@@ -166,7 +166,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                  transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
               </svg>
             </div>
             <h2>Our Plans</h2>
@@ -207,7 +207,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                  transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
               </svg>
             </div>
             <h2>Other Services Provided</h2>
@@ -297,7 +297,7 @@ with: href="{{ url('theme/assets/css/style.css') }}"
             <div class="triangle w-3">
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.662 101.309">
                 <path id="Path_727" data-name="Path 727" d="M1727.037,2383.8H1794.7l-34.015-101.309Z"
-                  transform="translate(-1727.037 -2282.491)" fill="#52A3D8" />
+                  transform="translate(-1727.037 -2282.491)" fill="#315FAA" />
               </svg>
 
             </div>
